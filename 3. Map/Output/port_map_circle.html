@@ -1,0 +1,5166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_46d8891d4b2cfe4720513d2e0f839ff8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_46d8891d4b2cfe4720513d2e0f839ff8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_46d8891d4b2cfe4720513d2e0f839ff8 = L.map(
+                "map_46d8891d4b2cfe4720513d2e0f839ff8",
+                {
+                    center: [59.568159546666664, 18.914518626274507],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+
+            
+
+        
+    
+            var tile_layer_adbd3991b3ade04b7a31f01d83a0a861 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 2,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "CartoDB",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_adbd3991b3ade04b7a31f01d83a0a861.addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+            var circle_af89c5c4b23bcb5d1216615f9737d556 = L.circle(
+                [60.616, 28.566],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_47c3dad60529bb91ee522faf89b45f3f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_72150b572320aa1534b2246f9b356771 = $(`<div id="html_72150b572320aa1534b2246f9b356771" style="width: 100.0%; height: 100.0%;">Port: VYSOTSKI (ID: 14928)</div>`)[0];
+                popup_47c3dad60529bb91ee522faf89b45f3f.setContent(html_72150b572320aa1534b2246f9b356771);
+            
+        
+
+        circle_af89c5c4b23bcb5d1216615f9737d556.bindPopup(popup_47c3dad60529bb91ee522faf89b45f3f)
+        ;
+
+        
+    
+    
+            circle_af89c5c4b23bcb5d1216615f9737d556.bindTooltip(
+                `<div>
+                     VYSOTSKI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_fd65c644d0da79192dc6e3857a5363b0 = L.circle(
+                [59.683, 28.434],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_289918f2a49b67bfaa7fa227f2ad8724 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ee415f2b2689ddfaec75fbc4819583a4 = $(`<div id="html_ee415f2b2689ddfaec75fbc4819583a4" style="width: 100.0%; height: 100.0%;">Port: UST-LUGA (ID: 8214872)</div>`)[0];
+                popup_289918f2a49b67bfaa7fa227f2ad8724.setContent(html_ee415f2b2689ddfaec75fbc4819583a4);
+            
+        
+
+        circle_fd65c644d0da79192dc6e3857a5363b0.bindPopup(popup_289918f2a49b67bfaa7fa227f2ad8724)
+        ;
+
+        
+    
+    
+            circle_fd65c644d0da79192dc6e3857a5363b0.bindTooltip(
+                `<div>
+                     UST-LUGA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_99642e16342f0a902867d68eca44ce89 = L.circle(
+                [59.5833, 25.7],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3e8478f3d082e922130e081338f10540 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5afb45c99811110e5933ebf7bd988a15 = $(`<div id="html_5afb45c99811110e5933ebf7bd988a15" style="width: 100.0%; height: 100.0%;">Port: LOKSA (ID: 81274125)</div>`)[0];
+                popup_3e8478f3d082e922130e081338f10540.setContent(html_5afb45c99811110e5933ebf7bd988a15);
+            
+        
+
+        circle_99642e16342f0a902867d68eca44ce89.bindPopup(popup_3e8478f3d082e922130e081338f10540)
+        ;
+
+        
+    
+    
+            circle_99642e16342f0a902867d68eca44ce89.bindTooltip(
+                `<div>
+                     LOKSA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_7e1e699f8abca526bf75a523fc98fe12 = L.circle(
+                [59.482, 24.955],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_ea4b37ed7d76e22c9707a585fad796b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_852f5fed002a8de83ad46a2f2df204dc = $(`<div id="html_852f5fed002a8de83ad46a2f2df204dc" style="width: 100.0%; height: 100.0%;">Port: MUUGA (ID: 645)</div>`)[0];
+                popup_ea4b37ed7d76e22c9707a585fad796b5.setContent(html_852f5fed002a8de83ad46a2f2df204dc);
+            
+        
+
+        circle_7e1e699f8abca526bf75a523fc98fe12.bindPopup(popup_ea4b37ed7d76e22c9707a585fad796b5)
+        ;
+
+        
+    
+    
+            circle_7e1e699f8abca526bf75a523fc98fe12.bindTooltip(
+                `<div>
+                     MUUGA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_49d3dffca1a6018313de364ed014af2a = L.circle(
+                [59.5158, 26.53313],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b60d4faaf8cb3bce8028bbd775c17715 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5f5986a4918fc3518a73189ead73a73 = $(`<div id="html_e5f5986a4918fc3518a73189ead73a73" style="width: 100.0%; height: 100.0%;">Port: KUNDA (ID: 34679)</div>`)[0];
+                popup_b60d4faaf8cb3bce8028bbd775c17715.setContent(html_e5f5986a4918fc3518a73189ead73a73);
+            
+        
+
+        circle_49d3dffca1a6018313de364ed014af2a.bindPopup(popup_b60d4faaf8cb3bce8028bbd775c17715)
+        ;
+
+        
+    
+    
+            circle_49d3dffca1a6018313de364ed014af2a.bindTooltip(
+                `<div>
+                     KUNDA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a714ca3284525d2ed0028eea9d8668b9 = L.circle(
+                [59.33123, 24.0829],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_4cdc0e15698552cc92d10190dc02b0c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b827cb43f0da54176b2982124ec4fee8 = $(`<div id="html_b827cb43f0da54176b2982124ec4fee8" style="width: 100.0%; height: 100.0%;">Port: PALDISKI (ID: 1274)</div>`)[0];
+                popup_4cdc0e15698552cc92d10190dc02b0c8.setContent(html_b827cb43f0da54176b2982124ec4fee8);
+            
+        
+
+        circle_a714ca3284525d2ed0028eea9d8668b9.bindPopup(popup_4cdc0e15698552cc92d10190dc02b0c8)
+        ;
+
+        
+    
+    
+            circle_a714ca3284525d2ed0028eea9d8668b9.bindTooltip(
+                `<div>
+                     PALDISKI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2058e0418e612b4aa46db85c668e78bb = L.circle(
+                [58.3832999, 24.549],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b55ed4d6dffe62acd98a04b7c7a16a58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2a6e987da725b0df4212f790ecf64446 = $(`<div id="html_2a6e987da725b0df4212f790ecf64446" style="width: 100.0%; height: 100.0%;">Port: PÄRNU (ID: 69319)</div>`)[0];
+                popup_b55ed4d6dffe62acd98a04b7c7a16a58.setContent(html_2a6e987da725b0df4212f790ecf64446);
+            
+        
+
+        circle_2058e0418e612b4aa46db85c668e78bb.bindPopup(popup_b55ed4d6dffe62acd98a04b7c7a16a58)
+        ;
+
+        
+    
+    
+            circle_2058e0418e612b4aa46db85c668e78bb.bindTooltip(
+                `<div>
+                     PÄRNU
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9c20a5ef86887ca84c937d278fa914e6 = L.circle(
+                [58.91666, 23.501023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_a6130fbadb216c5859f128894bf2f553 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cb2dd46ee72dfb84828e057fa82867a3 = $(`<div id="html_cb2dd46ee72dfb84828e057fa82867a3" style="width: 100.0%; height: 100.0%;">Port: HAAPSALU (ID: 90214)</div>`)[0];
+                popup_a6130fbadb216c5859f128894bf2f553.setContent(html_cb2dd46ee72dfb84828e057fa82867a3);
+            
+        
+
+        circle_9c20a5ef86887ca84c937d278fa914e6.bindPopup(popup_a6130fbadb216c5859f128894bf2f553)
+        ;
+
+        
+    
+    
+            circle_9c20a5ef86887ca84c937d278fa914e6.bindTooltip(
+                `<div>
+                     HAAPSALU
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_b3248ae4f999554fef9123a926ef3a8f = L.circle(
+                [59.3992, 27.733042],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_162ac8c8b2057f7241aa1781afa5b1df = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_77e2e743a78ee253dd162df2ff70d98b = $(`<div id="html_77e2e743a78ee253dd162df2ff70d98b" style="width: 100.0%; height: 100.0%;">Port: SILLAMÄE (ID: 93482)</div>`)[0];
+                popup_162ac8c8b2057f7241aa1781afa5b1df.setContent(html_77e2e743a78ee253dd162df2ff70d98b);
+            
+        
+
+        circle_b3248ae4f999554fef9123a926ef3a8f.bindPopup(popup_162ac8c8b2057f7241aa1781afa5b1df)
+        ;
+
+        
+    
+    
+            circle_b3248ae4f999554fef9123a926ef3a8f.bindTooltip(
+                `<div>
+                     SILLAMÄE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_8c4704420d5ed4ff5e6d3f7e1c072fc5 = L.circle(
+                [56.499, 20.9839129],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_2e373ed5d1502e5aa4d8518c1e67be1f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2ee258904cd478a72c1a7821f41845d2 = $(`<div id="html_2ee258904cd478a72c1a7821f41845d2" style="width: 100.0%; height: 100.0%;">Port: LIEBAJA (ID: 24788)</div>`)[0];
+                popup_2e373ed5d1502e5aa4d8518c1e67be1f.setContent(html_2ee258904cd478a72c1a7821f41845d2);
+            
+        
+
+        circle_8c4704420d5ed4ff5e6d3f7e1c072fc5.bindPopup(popup_2e373ed5d1502e5aa4d8518c1e67be1f)
+        ;
+
+        
+    
+    
+            circle_8c4704420d5ed4ff5e6d3f7e1c072fc5.bindTooltip(
+                `<div>
+                     LIEBAJA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d0a425ff9f74f32aef171cd78bde8aa9 = L.circle(
+                [57.046707, 9.94002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_1869b619477d9a0203a35b2a72be17a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de3c1fcc72ca3e7b6d3a1586b932d5b5 = $(`<div id="html_de3c1fcc72ca3e7b6d3a1586b932d5b5" style="width: 100.0%; height: 100.0%;">Port: AALBORG (ID: 909)</div>`)[0];
+                popup_1869b619477d9a0203a35b2a72be17a5.setContent(html_de3c1fcc72ca3e7b6d3a1586b932d5b5);
+            
+        
+
+        circle_d0a425ff9f74f32aef171cd78bde8aa9.bindPopup(popup_1869b619477d9a0203a35b2a72be17a5)
+        ;
+
+        
+    
+    
+            circle_d0a425ff9f74f32aef171cd78bde8aa9.bindTooltip(
+                `<div>
+                     AALBORG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f8e958d0010b2c8ad6416e9e3fd4b409 = L.circle(
+                [57.824, 12.016124],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_ea4a6e94afd1f62f88a88220b92c62f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e98a9a0afc24d117e8b7847c6e343638 = $(`<div id="html_e98a9a0afc24d117e8b7847c6e343638" style="width: 100.0%; height: 100.0%;">Port: BOHUS (ID: 8763428)</div>`)[0];
+                popup_ea4a6e94afd1f62f88a88220b92c62f8.setContent(html_e98a9a0afc24d117e8b7847c6e343638);
+            
+        
+
+        circle_f8e958d0010b2c8ad6416e9e3fd4b409.bindPopup(popup_ea4a6e94afd1f62f88a88220b92c62f8)
+        ;
+
+        
+    
+    
+            circle_f8e958d0010b2c8ad6416e9e3fd4b409.bindTooltip(
+                `<div>
+                     BOHUS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e6d185eb2b9b2ee0c1bf7f3f041425fa = L.circle(
+                [56.916, 12.499],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b038c36fc20cd27f2c95a6b59ee0fe90 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_446c6f5c01c19c967727b87d498db25e = $(`<div id="html_446c6f5c01c19c967727b87d498db25e" style="width: 100.0%; height: 100.0%;">Port: FALKENBERG (ID: 8241721)</div>`)[0];
+                popup_b038c36fc20cd27f2c95a6b59ee0fe90.setContent(html_446c6f5c01c19c967727b87d498db25e);
+            
+        
+
+        circle_e6d185eb2b9b2ee0c1bf7f3f041425fa.bindPopup(popup_b038c36fc20cd27f2c95a6b59ee0fe90)
+        ;
+
+        
+    
+    
+            circle_e6d185eb2b9b2ee0c1bf7f3f041425fa.bindTooltip(
+                `<div>
+                     FALKENBERG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d924070174c3d1e477fc867ec8f3f36d = L.circle(
+                [57.433299, 10.530099],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_e43fe12054ff26be6d2bb22caa02e985 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2fcd9ade775e15a273254f8d89fec389 = $(`<div id="html_2fcd9ade775e15a273254f8d89fec389" style="width: 100.0%; height: 100.0%;">Port: FREDRIKSHAMN (ID: 897421)</div>`)[0];
+                popup_e43fe12054ff26be6d2bb22caa02e985.setContent(html_2fcd9ade775e15a273254f8d89fec389);
+            
+        
+
+        circle_d924070174c3d1e477fc867ec8f3f36d.bindPopup(popup_e43fe12054ff26be6d2bb22caa02e985)
+        ;
+
+        
+    
+    
+            circle_d924070174c3d1e477fc867ec8f3f36d.bindTooltip(
+                `<div>
+                     FREDRIKSHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_476dade40ac246708aa7239a8102a7e6 = L.circle(
+                [54.36023, 18.64912],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_da59bfb130bc0d88c7cd0a044c072df9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9775c50f7af4defb89a1ac8bc82ec0e2 = $(`<div id="html_9775c50f7af4defb89a1ac8bc82ec0e2" style="width: 100.0%; height: 100.0%;">Port: GDANSK (ID: 785329)</div>`)[0];
+                popup_da59bfb130bc0d88c7cd0a044c072df9.setContent(html_9775c50f7af4defb89a1ac8bc82ec0e2);
+            
+        
+
+        circle_476dade40ac246708aa7239a8102a7e6.bindPopup(popup_da59bfb130bc0d88c7cd0a044c072df9)
+        ;
+
+        
+    
+    
+            circle_476dade40ac246708aa7239a8102a7e6.bindTooltip(
+                `<div>
+                     GDANSK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_07067a4d32b1eafdcc64ed6e3be96c54 = L.circle(
+                [54.5343, 18.5459],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_2d3adde3d11c7f9766e9c623c4efa9cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5243d12ed6dbbb3665b5b5a32b2b142f = $(`<div id="html_5243d12ed6dbbb3665b5b5a32b2b142f" style="width: 100.0%; height: 100.0%;">Port: GDYNIA (ID: 12641287)</div>`)[0];
+                popup_2d3adde3d11c7f9766e9c623c4efa9cc.setContent(html_5243d12ed6dbbb3665b5b5a32b2b142f);
+            
+        
+
+        circle_07067a4d32b1eafdcc64ed6e3be96c54.bindPopup(popup_2d3adde3d11c7f9766e9c623c4efa9cc)
+        ;
+
+        
+    
+    
+            circle_07067a4d32b1eafdcc64ed6e3be96c54.bindTooltip(
+                `<div>
+                     GDYNIA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ccecc33e355ce02bdf44e91120c1bce2 = L.circle(
+                [56.416794, 10.93124],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_4f2bbf339d89f11512ae58a368264fa6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_48f2c6f417d1a3a2339e91753d2ab19d = $(`<div id="html_48f2c6f417d1a3a2339e91753d2ab19d" style="width: 100.0%; height: 100.0%;">Port: GRENÅ (ID: 987352)</div>`)[0];
+                popup_4f2bbf339d89f11512ae58a368264fa6.setContent(html_48f2c6f417d1a3a2339e91753d2ab19d);
+            
+        
+
+        circle_ccecc33e355ce02bdf44e91120c1bce2.bindPopup(popup_4f2bbf339d89f11512ae58a368264fa6)
+        ;
+
+        
+    
+    
+            circle_ccecc33e355ce02bdf44e91120c1bce2.bindTooltip(
+                `<div>
+                     GRENÅ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_7075e7b3cdb386ea6f231ea6f0968968 = L.circle(
+                [59.33213, 13.1166069],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_dbb4d9d9e64a643750d2f7a263b42c74 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9bb37ea0ba5baad7ac53cb5969c6dac7 = $(`<div id="html_9bb37ea0ba5baad7ac53cb5969c6dac7" style="width: 100.0%; height: 100.0%;">Port: GRUVÖN (ID: 32876239647)</div>`)[0];
+                popup_dbb4d9d9e64a643750d2f7a263b42c74.setContent(html_9bb37ea0ba5baad7ac53cb5969c6dac7);
+            
+        
+
+        circle_7075e7b3cdb386ea6f231ea6f0968968.bindPopup(popup_dbb4d9d9e64a643750d2f7a263b42c74)
+        ;
+
+        
+    
+    
+            circle_7075e7b3cdb386ea6f231ea6f0968968.bindTooltip(
+                `<div>
+                     GRUVÖN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d8b9e00fa44e63890e46c4fd8c38f760 = L.circle(
+                [60.683293, 17.183295],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_285c69179611516b998c8cbcee15ed40 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b83fba47812229fb9f4e52385678498 = $(`<div id="html_5b83fba47812229fb9f4e52385678498" style="width: 100.0%; height: 100.0%;">Port: GÄVLE (ID: 742938)</div>`)[0];
+                popup_285c69179611516b998c8cbcee15ed40.setContent(html_5b83fba47812229fb9f4e52385678498);
+            
+        
+
+        circle_d8b9e00fa44e63890e46c4fd8c38f760.bindPopup(popup_285c69179611516b998c8cbcee15ed40)
+        ;
+
+        
+    
+    
+            circle_d8b9e00fa44e63890e46c4fd8c38f760.bindTooltip(
+                `<div>
+                     GÄVLE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_eb621a32681b2bd2e2187065ce273f93 = L.circle(
+                [57.7169, 11.88329],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_8aa5d37b7ab57c84d0131b6c6a737096 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e579ee9f337ef3c68ef858d248d708d3 = $(`<div id="html_e579ee9f337ef3c68ef858d248d708d3" style="width: 100.0%; height: 100.0%;">Port: GÖTEBORG (ID: 9469372)</div>`)[0];
+                popup_8aa5d37b7ab57c84d0131b6c6a737096.setContent(html_e579ee9f337ef3c68ef858d248d708d3);
+            
+        
+
+        circle_eb621a32681b2bd2e2187065ce273f93.bindPopup(popup_8aa5d37b7ab57c84d0131b6c6a737096)
+        ;
+
+        
+    
+    
+            circle_eb621a32681b2bd2e2187065ce273f93.bindTooltip(
+                `<div>
+                     GÖTEBORG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1e82badce8874c6445508f743d91e608 = L.circle(
+                [60.0667, 18.599],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_742503a239858e15dbc6ff37cbe19dd4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_686917e49261e05a23978cb7d5832927 = $(`<div id="html_686917e49261e05a23978cb7d5832927" style="width: 100.0%; height: 100.0%;">Port: HALLSTAVIK (ID: 42199)</div>`)[0];
+                popup_742503a239858e15dbc6ff37cbe19dd4.setContent(html_686917e49261e05a23978cb7d5832927);
+            
+        
+
+        circle_1e82badce8874c6445508f743d91e608.bindPopup(popup_742503a239858e15dbc6ff37cbe19dd4)
+        ;
+
+        
+    
+    
+            circle_1e82badce8874c6445508f743d91e608.bindTooltip(
+                `<div>
+                     HALLSTAVIK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f023db650ac7d29b740338b2bf135b21 = L.circle(
+                [56.66124, 12.86654],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_330f66f2b7f5e5454ded9b9f167c308b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5eb0a33f9a5b72c5843563947f35b597 = $(`<div id="html_5eb0a33f9a5b72c5843563947f35b597" style="width: 100.0%; height: 100.0%;">Port: HALMSTAD (ID: 987124)</div>`)[0];
+                popup_330f66f2b7f5e5454ded9b9f167c308b.setContent(html_5eb0a33f9a5b72c5843563947f35b597);
+            
+        
+
+        circle_f023db650ac7d29b740338b2bf135b21.bindPopup(popup_330f66f2b7f5e5454ded9b9f167c308b)
+        ;
+
+        
+    
+    
+            circle_f023db650ac7d29b740338b2bf135b21.bindTooltip(
+                `<div>
+                     HALMSTAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1e0d55684c018e9f85e87cd5377f7236 = L.circle(
+                [60.566475, 27.183324],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3afdb2cbb11bfa89047177c8e5ae516e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5eb8d5bf192ad97d69e8f76b628efff = $(`<div id="html_f5eb8d5bf192ad97d69e8f76b628efff" style="width: 100.0%; height: 100.0%;">Port: HAMINA (ID: 879421)</div>`)[0];
+                popup_3afdb2cbb11bfa89047177c8e5ae516e.setContent(html_f5eb8d5bf192ad97d69e8f76b628efff);
+            
+        
+
+        circle_1e0d55684c018e9f85e87cd5377f7236.bindPopup(popup_3afdb2cbb11bfa89047177c8e5ae516e)
+        ;
+
+        
+    
+    
+            circle_1e0d55684c018e9f85e87cd5377f7236.bindTooltip(
+                `<div>
+                     HAMINA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_282e83b0e247e6f48e32ce9612da0d31 = L.circle(
+                [59.81432, 22.967483],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_586f0115110c8fedbc08099e8bbdbca9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_40fce4146640463a6d0f7bfad8710bb4 = $(`<div id="html_40fce4146640463a6d0f7bfad8710bb4" style="width: 100.0%; height: 100.0%;">Port: HANKO/HANGÖ (ID: 89742)</div>`)[0];
+                popup_586f0115110c8fedbc08099e8bbdbca9.setContent(html_40fce4146640463a6d0f7bfad8710bb4);
+            
+        
+
+        circle_282e83b0e247e6f48e32ce9612da0d31.bindPopup(popup_586f0115110c8fedbc08099e8bbdbca9)
+        ;
+
+        
+    
+    
+            circle_282e83b0e247e6f48e32ce9612da0d31.bindTooltip(
+                `<div>
+                     HANKO/HANGÖ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_126bb576288bb56a7f4c3103c19167f3 = L.circle(
+                [65.2330923, 21.6350012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_62f01ecf54e0657a7f09fc24be8ccfcd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_717e3b979c4b9ff7fb56663a788297c2 = $(`<div id="html_717e3b979c4b9ff7fb56663a788297c2" style="width: 100.0%; height: 100.0%;">Port: HARAHOLMEN (ID: 984721)</div>`)[0];
+                popup_62f01ecf54e0657a7f09fc24be8ccfcd.setContent(html_717e3b979c4b9ff7fb56663a788297c2);
+            
+        
+
+        circle_126bb576288bb56a7f4c3103c19167f3.bindPopup(popup_62f01ecf54e0657a7f09fc24be8ccfcd)
+        ;
+
+        
+    
+    
+            circle_126bb576288bb56a7f4c3103c19167f3.bindTooltip(
+                `<div>
+                     HARAHOLMEN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_fc62c80060a36590a98ba199e2ec905b = L.circle(
+                [60.166665, 18.48354],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_61ab282f93d655e7f401b056a0521dc3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_935b30d214731933521002516a626e0b = $(`<div id="html_935b30d214731933521002516a626e0b" style="width: 100.0%; height: 100.0%;">Port: HARGSHAMN (ID: 10560147)</div>`)[0];
+                popup_61ab282f93d655e7f401b056a0521dc3.setContent(html_935b30d214731933521002516a626e0b);
+            
+        
+
+        circle_fc62c80060a36590a98ba199e2ec905b.bindPopup(popup_61ab282f93d655e7f401b056a0521dc3)
+        ;
+
+        
+    
+    
+            circle_fc62c80060a36590a98ba199e2ec905b.bindTooltip(
+                `<div>
+                     HARGSHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d4ad3ffbf06a88d4a1b61c2bed27e468 = L.circle(
+                [56.0542, 12.69432],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_d0661566acfc935604262a51eeb8fc22 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e85a106876125fd202864246a18f1cfe = $(`<div id="html_e85a106876125fd202864246a18f1cfe" style="width: 100.0%; height: 100.0%;">Port: HELSINGBORG (ID: 87213)</div>`)[0];
+                popup_d0661566acfc935604262a51eeb8fc22.setContent(html_e85a106876125fd202864246a18f1cfe);
+            
+        
+
+        circle_d4ad3ffbf06a88d4a1b61c2bed27e468.bindPopup(popup_d0661566acfc935604262a51eeb8fc22)
+        ;
+
+        
+    
+    
+            circle_d4ad3ffbf06a88d4a1b61c2bed27e468.bindTooltip(
+                `<div>
+                     HELSINGBORG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2a4b1bec0280d8a0ddc26d1fddc6d16b = L.circle(
+                [56.0324, 12.55769],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_d3e59bca2678ac19fc1519743ca27744 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18f3b5a08d97d8a08ca29cd791dd8c9a = $(`<div id="html_18f3b5a08d97d8a08ca29cd791dd8c9a" style="width: 100.0%; height: 100.0%;">Port: HELSINGÖR (ID: 91321)</div>`)[0];
+                popup_d3e59bca2678ac19fc1519743ca27744.setContent(html_18f3b5a08d97d8a08ca29cd791dd8c9a);
+            
+        
+
+        circle_2a4b1bec0280d8a0ddc26d1fddc6d16b.bindPopup(popup_d3e59bca2678ac19fc1519743ca27744)
+        ;
+
+        
+    
+    
+            circle_2a4b1bec0280d8a0ddc26d1fddc6d16b.bindTooltip(
+                `<div>
+                     HELSINGÖR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1f93e5e7fa64004fb130a296bd383265 = L.circle(
+                [60.142, 24.9512],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_5d9afc4c9326cdd52acba1da71469931 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f3ecede488342885bf12fb1de3dcd1f9 = $(`<div id="html_f3ecede488342885bf12fb1de3dcd1f9" style="width: 100.0%; height: 100.0%;">Port: HELSINKI/HELSINGFORS (ID: 12)</div>`)[0];
+                popup_5d9afc4c9326cdd52acba1da71469931.setContent(html_f3ecede488342885bf12fb1de3dcd1f9);
+            
+        
+
+        circle_1f93e5e7fa64004fb130a296bd383265.bindPopup(popup_5d9afc4c9326cdd52acba1da71469931)
+        ;
+
+        
+    
+    
+            circle_1f93e5e7fa64004fb130a296bd383265.bindTooltip(
+                `<div>
+                     HELSINKI/HELSINGFORS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_56997c309366c0e9dd5ef8dbe7f64f5d = L.circle(
+                [63.666554, 20.33049],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_89fc88669e68c87027d0394beb5995b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_147cba911152c1e90b24ec8cc2ccf917 = $(`<div id="html_147cba911152c1e90b24ec8cc2ccf917" style="width: 100.0%; height: 100.0%;">Port: HOLMSUND (ID: 82)</div>`)[0];
+                popup_89fc88669e68c87027d0394beb5995b3.setContent(html_147cba911152c1e90b24ec8cc2ccf917);
+            
+        
+
+        circle_56997c309366c0e9dd5ef8dbe7f64f5d.bindPopup(popup_89fc88669e68c87027d0394beb5995b3)
+        ;
+
+        
+    
+    
+            circle_56997c309366c0e9dd5ef8dbe7f64f5d.bindTooltip(
+                `<div>
+                     HOLMSUND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_03b76c99f27efb935914444f21f5ca25 = L.circle(
+                [61.73324, 17.116653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_8b415cdf36c1a14f5134db4825515a6b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_87dd89114a64b25a734aa6cbe68202b8 = $(`<div id="html_87dd89114a64b25a734aa6cbe68202b8" style="width: 100.0%; height: 100.0%;">Port: HUDIKSVALL (ID: 62)</div>`)[0];
+                popup_8b415cdf36c1a14f5134db4825515a6b.setContent(html_87dd89114a64b25a734aa6cbe68202b8);
+            
+        
+
+        circle_03b76c99f27efb935914444f21f5ca25.bindPopup(popup_8b415cdf36c1a14f5134db4825515a6b)
+        ;
+
+        
+    
+    
+            circle_03b76c99f27efb935914444f21f5ca25.bindTooltip(
+                `<div>
+                     HUDIKSVALL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_344faaf1d25500da09dbcc1400b37c47 = L.circle(
+                [63.35443, 19.15326],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_786867a009c89ce5d844b021d40dcb86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c2905af7f5253b175d46f88499e3bacc = $(`<div id="html_c2905af7f5253b175d46f88499e3bacc" style="width: 100.0%; height: 100.0%;">Port: HUSUM (ID: 28)</div>`)[0];
+                popup_786867a009c89ce5d844b021d40dcb86.setContent(html_c2905af7f5253b175d46f88499e3bacc);
+            
+        
+
+        circle_344faaf1d25500da09dbcc1400b37c47.bindPopup(popup_786867a009c89ce5d844b021d40dcb86)
+        ;
+
+        
+    
+    
+            circle_344faaf1d25500da09dbcc1400b37c47.bindTooltip(
+                `<div>
+                     HUSUM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_b11546771310b24525b05c6b911ddc61 = L.circle(
+                [62.63432, 17.93243],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_99de712571153ff99d319405dfd578e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fcf7a4400e6c28499f79fee7bf1da2f8 = $(`<div id="html_fcf7a4400e6c28499f79fee7bf1da2f8" style="width: 100.0%; height: 100.0%;">Port: HÄRNÖSAND (ID: 19)</div>`)[0];
+                popup_99de712571153ff99d319405dfd578e8.setContent(html_fcf7a4400e6c28499f79fee7bf1da2f8);
+            
+        
+
+        circle_b11546771310b24525b05c6b911ddc61.bindPopup(popup_99de712571153ff99d319405dfd578e8)
+        ;
+
+        
+    
+    
+            circle_b11546771310b24525b05c6b911ddc61.bindTooltip(
+                `<div>
+                     HÄRNÖSAND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e837ce65d74bd92b151d878247c1c873 = L.circle(
+                [61.636617, 17.1090012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_d724e9ba5a1ba45a2c10eca13e9fa5b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5d84e60f620b396fc7b42e8c1a048f4f = $(`<div id="html_5d84e60f620b396fc7b42e8c1a048f4f" style="width: 100.0%; height: 100.0%;">Port: IGGESUND (ID: 21)</div>`)[0];
+                popup_d724e9ba5a1ba45a2c10eca13e9fa5b7.setContent(html_5d84e60f620b396fc7b42e8c1a048f4f);
+            
+        
+
+        circle_e837ce65d74bd92b151d878247c1c873.bindPopup(popup_d724e9ba5a1ba45a2c10eca13e9fa5b7)
+        ;
+
+        
+    
+    
+            circle_e837ce65d74bd92b151d878247c1c873.bindTooltip(
+                `<div>
+                     IGGESUND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_68da90c0c5a46f90de14db8d09376c55 = L.circle(
+                [60.01659, 23.916923],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3fcf0f9f39ef547b56f7a38851845ff0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15f1c1018871141a41029ea52a981d9d = $(`<div id="html_15f1c1018871141a41029ea52a981d9d" style="width: 100.0%; height: 100.0%;">Port: INKOO (ID: 924)</div>`)[0];
+                popup_3fcf0f9f39ef547b56f7a38851845ff0.setContent(html_15f1c1018871141a41029ea52a981d9d);
+            
+        
+
+        circle_68da90c0c5a46f90de14db8d09376c55.bindPopup(popup_3fcf0f9f39ef547b56f7a38851845ff0)
+        ;
+
+        
+    
+    
+            circle_68da90c0c5a46f90de14db8d09376c55.bindTooltip(
+                `<div>
+                     INKOO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_291b6b0c76a573f64ca3025eea0ede99 = L.circle(
+                [56.66327, 16.36777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_ad01766dc82207e8aa965ce4dedefc6c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e7a2f1d7da8c7b1cfe53173fec6f0a69 = $(`<div id="html_e7a2f1d7da8c7b1cfe53173fec6f0a69" style="width: 100.0%; height: 100.0%;">Port: KALMAR (ID: 1249)</div>`)[0];
+                popup_ad01766dc82207e8aa965ce4dedefc6c.setContent(html_e7a2f1d7da8c7b1cfe53173fec6f0a69);
+            
+        
+
+        circle_291b6b0c76a573f64ca3025eea0ede99.bindPopup(popup_ad01766dc82207e8aa965ce4dedefc6c)
+        ;
+
+        
+    
+    
+            circle_291b6b0c76a573f64ca3025eea0ede99.bindTooltip(
+                `<div>
+                     KALMAR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ad2a1599a82a5801f70c550c865baf5f = L.circle(
+                [60.08324, 24.395],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3a9203162014d4031ef60427fa6b104f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_84c78430bba66e1889e1f9cabc4fe35c = $(`<div id="html_84c78430bba66e1889e1f9cabc4fe35c" style="width: 100.0%; height: 100.0%;">Port: KANTVIK (ID: 8412)</div>`)[0];
+                popup_3a9203162014d4031ef60427fa6b104f.setContent(html_84c78430bba66e1889e1f9cabc4fe35c);
+            
+        
+
+        circle_ad2a1599a82a5801f70c550c865baf5f.bindPopup(popup_3a9203162014d4031ef60427fa6b104f)
+        ;
+
+        
+    
+    
+            circle_ad2a1599a82a5801f70c550c865baf5f.bindTooltip(
+                `<div>
+                     KANTVIK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_5182aa0bf22bbfc6aacdbcf3eb30ca1a = L.circle(
+                [65.912, 23.282059],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_09026e1f389bc7837a144903db095422 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e59b89f3dadf321f23aaa7f5b65dd63 = $(`<div id="html_7e59b89f3dadf321f23aaa7f5b65dd63" style="width: 100.0%; height: 100.0%;">Port: KARLSBORG (ID: 4559)</div>`)[0];
+                popup_09026e1f389bc7837a144903db095422.setContent(html_7e59b89f3dadf321f23aaa7f5b65dd63);
+            
+        
+
+        circle_5182aa0bf22bbfc6aacdbcf3eb30ca1a.bindPopup(popup_09026e1f389bc7837a144903db095422)
+        ;
+
+        
+    
+    
+            circle_5182aa0bf22bbfc6aacdbcf3eb30ca1a.bindTooltip(
+                `<div>
+                     KARLSBORG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_3ed3d1bc03bb975783f184769f7ec131 = L.circle(
+                [56.1658, 14.86701],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_e95d0d59b509a805e78e24534db65a7f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d165f51d8b1992fe67d27270ba508176 = $(`<div id="html_d165f51d8b1992fe67d27270ba508176" style="width: 100.0%; height: 100.0%;">Port: KARLSHAMN (ID: 839)</div>`)[0];
+                popup_e95d0d59b509a805e78e24534db65a7f.setContent(html_d165f51d8b1992fe67d27270ba508176);
+            
+        
+
+        circle_3ed3d1bc03bb975783f184769f7ec131.bindPopup(popup_e95d0d59b509a805e78e24534db65a7f)
+        ;
+
+        
+    
+    
+            circle_3ed3d1bc03bb975783f184769f7ec131.bindTooltip(
+                `<div>
+                     KARLSHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_c68c057d496a716e23cc7a51f0a070c3 = L.circle(
+                [56.1685, 15.59832],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_6499357d0fc88f64a254fe9d2b09d5d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da636decefc7d157bcd4a086c5abdc0e = $(`<div id="html_da636decefc7d157bcd4a086c5abdc0e" style="width: 100.0%; height: 100.0%;">Port: KARLSKRONA (ID: 532)</div>`)[0];
+                popup_6499357d0fc88f64a254fe9d2b09d5d9.setContent(html_da636decefc7d157bcd4a086c5abdc0e);
+            
+        
+
+        circle_c68c057d496a716e23cc7a51f0a070c3.bindPopup(popup_6499357d0fc88f64a254fe9d2b09d5d9)
+        ;
+
+        
+    
+    
+            circle_c68c057d496a716e23cc7a51f0a070c3.bindTooltip(
+                `<div>
+                     KARLSKRONA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_27ff73ca14695802e3f02efc80e69b9e = L.circle(
+                [59.36709, 13.54001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3eac7ae2e0ba3a394a2689c115fa1ae0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fc0070945a384775ef962881bbeb5dec = $(`<div id="html_fc0070945a384775ef962881bbeb5dec" style="width: 100.0%; height: 100.0%;">Port: KARLSTAD (ID: 129)</div>`)[0];
+                popup_3eac7ae2e0ba3a394a2689c115fa1ae0.setContent(html_fc0070945a384775ef962881bbeb5dec);
+            
+        
+
+        circle_27ff73ca14695802e3f02efc80e69b9e.bindPopup(popup_3eac7ae2e0ba3a394a2689c115fa1ae0)
+        ;
+
+        
+    
+    
+            circle_27ff73ca14695802e3f02efc80e69b9e.bindTooltip(
+                `<div>
+                     KARLSTAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_08282f17ad1024bd50803d0867edb772 = L.circle(
+                [62.38359, 21.217],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_0c763b1ff4c5ff24cdca0b16f358ec54 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe1facb3e748a572f88853152f11d65e = $(`<div id="html_fe1facb3e748a572f88853152f11d65e" style="width: 100.0%; height: 100.0%;">Port: KASKINEN (ID: 423)</div>`)[0];
+                popup_0c763b1ff4c5ff24cdca0b16f358ec54.setContent(html_fe1facb3e748a572f88853152f11d65e);
+            
+        
+
+        circle_08282f17ad1024bd50803d0867edb772.bindPopup(popup_0c763b1ff4c5ff24cdca0b16f358ec54)
+        ;
+
+        
+    
+    
+            circle_08282f17ad1024bd50803d0867edb772.bindTooltip(
+                `<div>
+                     KASKINEN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_05ff6f184d60df6bd58066e30a9ae948 = L.circle(
+                [65.7343, 24.566669],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_f72b251b19d12e6a7d0f911775f2a909 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c954cf05e0c4ca0312ac26fc02e1c070 = $(`<div id="html_c954cf05e0c4ca0312ac26fc02e1c070" style="width: 100.0%; height: 100.0%;">Port: KEMI (ID: 591)</div>`)[0];
+                popup_f72b251b19d12e6a7d0f911775f2a909.setContent(html_c954cf05e0c4ca0312ac26fc02e1c070);
+            
+        
+
+        circle_05ff6f184d60df6bd58066e30a9ae948.bindPopup(popup_f72b251b19d12e6a7d0f911775f2a909)
+        ;
+
+        
+    
+    
+            circle_05ff6f184d60df6bd58066e30a9ae948.bindTooltip(
+                `<div>
+                     KEMI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_80309253e99b91243bd97e7c571d1f55 = L.circle(
+                [54.3164, 10.08312],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_5f198761711301f706cb3c8cce6c613e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6440b471b83ca0683fd0d71f385c6984 = $(`<div id="html_6440b471b83ca0683fd0d71f385c6984" style="width: 100.0%; height: 100.0%;">Port: KIEL (ID: 111)</div>`)[0];
+                popup_5f198761711301f706cb3c8cce6c613e.setContent(html_6440b471b83ca0683fd0d71f385c6984);
+            
+        
+
+        circle_80309253e99b91243bd97e7c571d1f55.bindPopup(popup_5f198761711301f706cb3c8cce6c613e)
+        ;
+
+        
+    
+    
+            circle_80309253e99b91243bd97e7c571d1f55.bindTooltip(
+                `<div>
+                     KIEL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_76ff8ee5634130bc3a85815232181f04 = L.circle(
+                [55.7176, 21.13405],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_6c06fdeaf3859860768e33c926027b09 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43f9d5f345e1bdfc36e494cbad6d0499 = $(`<div id="html_43f9d5f345e1bdfc36e494cbad6d0499" style="width: 100.0%; height: 100.0%;">Port: KLAIPEDA (ID: 9493)</div>`)[0];
+                popup_6c06fdeaf3859860768e33c926027b09.setContent(html_43f9d5f345e1bdfc36e494cbad6d0499);
+            
+        
+
+        circle_76ff8ee5634130bc3a85815232181f04.bindPopup(popup_6c06fdeaf3859860768e33c926027b09)
+        ;
+
+        
+    
+    
+            circle_76ff8ee5634130bc3a85815232181f04.bindTooltip(
+                `<div>
+                     KLAIPEDA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_bf80985c61b5666a9554677f6fcb6651 = L.circle(
+                [63.8495, 23.1333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_d031d0a67ec376db2fab587d9c1a8072 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2184d9f17e39138dc451495db58228f6 = $(`<div id="html_2184d9f17e39138dc451495db58228f6" style="width: 100.0%; height: 100.0%;">Port: KOKKOLA (ID: 231)</div>`)[0];
+                popup_d031d0a67ec376db2fab587d9c1a8072.setContent(html_2184d9f17e39138dc451495db58228f6);
+            
+        
+
+        circle_bf80985c61b5666a9554677f6fcb6651.bindPopup(popup_d031d0a67ec376db2fab587d9c1a8072)
+        ;
+
+        
+    
+    
+            circle_bf80985c61b5666a9554677f6fcb6651.bindTooltip(
+                `<div>
+                     KOKKOLA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_b3968ed9d24c965dd3235786fcf0e8ad = L.circle(
+                [60.4667, 26.951],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_1574bb300cb62a90728204701cba58ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_408ff13736d4afed4376ecd8e3d26b4d = $(`<div id="html_408ff13736d4afed4376ecd8e3d26b4d" style="width: 100.0%; height: 100.0%;">Port: KOTKA (ID: 74)</div>`)[0];
+                popup_1574bb300cb62a90728204701cba58ce.setContent(html_408ff13736d4afed4376ecd8e3d26b4d);
+            
+        
+
+        circle_b3968ed9d24c965dd3235786fcf0e8ad.bindPopup(popup_1574bb300cb62a90728204701cba58ce)
+        ;
+
+        
+    
+    
+            circle_b3968ed9d24c965dd3235786fcf0e8ad.bindTooltip(
+                `<div>
+                     KOTKA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_dbcb4befd57e83b8a6a51489124d47af = L.circle(
+                [59.88351, 23.21656],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_c7448f9f30b0fbb7a3a4b1c075f116a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73c8d9b134ebdc518e8b1fb5de12c65b = $(`<div id="html_73c8d9b134ebdc518e8b1fb5de12c65b" style="width: 100.0%; height: 100.0%;">Port: KOVERHAR (ID: 104)</div>`)[0];
+                popup_c7448f9f30b0fbb7a3a4b1c075f116a7.setContent(html_73c8d9b134ebdc518e8b1fb5de12c65b);
+            
+        
+
+        circle_dbcb4befd57e83b8a6a51489124d47af.bindPopup(popup_c7448f9f30b0fbb7a3a4b1c075f116a7)
+        ;
+
+        
+    
+    
+            circle_dbcb4befd57e83b8a6a51489124d47af.bindTooltip(
+                `<div>
+                     KOVERHAR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_cdd61a44cab9e8f37a390e22b2856127 = L.circle(
+                [62.9345, 17.7844],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_452090eca00036c53bd6dcddca1b375d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8541d8d256ac3c66183d820ea39f1698 = $(`<div id="html_8541d8d256ac3c66183d820ea39f1698" style="width: 100.0%; height: 100.0%;">Port: KRAMFORS (ID: 321441)</div>`)[0];
+                popup_452090eca00036c53bd6dcddca1b375d.setContent(html_8541d8d256ac3c66183d820ea39f1698);
+            
+        
+
+        circle_cdd61a44cab9e8f37a390e22b2856127.bindPopup(popup_452090eca00036c53bd6dcddca1b375d)
+        ;
+
+        
+    
+    
+            circle_cdd61a44cab9e8f37a390e22b2856127.bindTooltip(
+                `<div>
+                     KRAMFORS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2e82bb24a489c0169fd5fe83f35431dc = L.circle(
+                [62.2669, 21.38349],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_f5a8e0ff58b0b13bac1be12973b30134 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0963834591092b40b851de7670ff51d8 = $(`<div id="html_0963834591092b40b851de7670ff51d8" style="width: 100.0%; height: 100.0%;">Port: KRISTIINANKAUPUNKI (ID: 43024)</div>`)[0];
+                popup_f5a8e0ff58b0b13bac1be12973b30134.setContent(html_0963834591092b40b851de7670ff51d8);
+            
+        
+
+        circle_2e82bb24a489c0169fd5fe83f35431dc.bindPopup(popup_f5a8e0ff58b0b13bac1be12973b30134)
+        ;
+
+        
+    
+    
+            circle_2e82bb24a489c0169fd5fe83f35431dc.bindTooltip(
+                `<div>
+                     KRISTIINANKAUPUNKI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1db564529d9b1e55b0b8f9ea957f2f86 = L.circle(
+                [59.31659, 14.1123],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_fe64a3b46afbf1b42bb58e96ba578653 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e2efc7b5dd2855cc247d3e7d1fbb8709 = $(`<div id="html_e2efc7b5dd2855cc247d3e7d1fbb8709" style="width: 100.0%; height: 100.0%;">Port: KRISTINEHAMN (ID: 21414)</div>`)[0];
+                popup_fe64a3b46afbf1b42bb58e96ba578653.setContent(html_e2efc7b5dd2855cc247d3e7d1fbb8709);
+            
+        
+
+        circle_1db564529d9b1e55b0b8f9ea957f2f86.bindPopup(popup_fe64a3b46afbf1b42bb58e96ba578653)
+        ;
+
+        
+    
+    
+            circle_1db564529d9b1e55b0b8f9ea957f2f86.bindTooltip(
+                `<div>
+                     KRISTINEHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_07edad3ac424fabe16b0874455f1acb7 = L.circle(
+                [55.45124, 12.183431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_272a0035984888d9eeb711119fc95d69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef77510cad6053fc748f87c296484b78 = $(`<div id="html_ef77510cad6053fc748f87c296484b78" style="width: 100.0%; height: 100.0%;">Port: KÖGE (ID: 55)</div>`)[0];
+                popup_272a0035984888d9eeb711119fc95d69.setContent(html_ef77510cad6053fc748f87c296484b78);
+            
+        
+
+        circle_07edad3ac424fabe16b0874455f1acb7.bindPopup(popup_272a0035984888d9eeb711119fc95d69)
+        ;
+
+        
+    
+    
+            circle_07edad3ac424fabe16b0874455f1acb7.bindTooltip(
+                `<div>
+                     KÖGE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_131e4696b0abff6da89b36cbedbb7c51 = L.circle(
+                [55.68332, 12.5899],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_5476403a2fc5c1df7754874e7de92e96 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_edcd1dafa7df491ae33bcdf0e8fd40f2 = $(`<div id="html_edcd1dafa7df491ae33bcdf0e8fd40f2" style="width: 100.0%; height: 100.0%;">Port: KÖPENHAMN (ID: 4305)</div>`)[0];
+                popup_5476403a2fc5c1df7754874e7de92e96.setContent(html_edcd1dafa7df491ae33bcdf0e8fd40f2);
+            
+        
+
+        circle_131e4696b0abff6da89b36cbedbb7c51.bindPopup(popup_5476403a2fc5c1df7754874e7de92e96)
+        ;
+
+        
+    
+    
+            circle_131e4696b0abff6da89b36cbedbb7c51.bindTooltip(
+                `<div>
+                     KÖPENHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ab8f9ac74fe5c2c41a873de1047aa2b4 = L.circle(
+                [59.55, 16.01669],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_9e152dbefd433dccbc377204ebe8d0b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e699d946e6ee030570ed718fc4c51585 = $(`<div id="html_e699d946e6ee030570ed718fc4c51585" style="width: 100.0%; height: 100.0%;">Port: KÖPING (ID: 989)</div>`)[0];
+                popup_9e152dbefd433dccbc377204ebe8d0b5.setContent(html_e699d946e6ee030570ed718fc4c51585);
+            
+        
+
+        circle_ab8f9ac74fe5c2c41a873de1047aa2b4.bindPopup(popup_9e152dbefd433dccbc377204ebe8d0b5)
+        ;
+
+        
+    
+    
+            circle_ab8f9ac74fe5c2c41a873de1047aa2b4.bindTooltip(
+                `<div>
+                     KÖPING
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_85351ee032813dd12bf32a286a1a10f7 = L.circle(
+                [55.8678, 12.83],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b54552c0a22f2fbe1eaee385e6de7c1c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ea5204111ddd7ac5d58af1ca40208474 = $(`<div id="html_ea5204111ddd7ac5d58af1ca40208474" style="width: 100.0%; height: 100.0%;">Port: LANDSKRONA (ID: 6312)</div>`)[0];
+                popup_b54552c0a22f2fbe1eaee385e6de7c1c.setContent(html_ea5204111ddd7ac5d58af1ca40208474);
+            
+        
+
+        circle_85351ee032813dd12bf32a286a1a10f7.bindPopup(popup_b54552c0a22f2fbe1eaee385e6de7c1c)
+        ;
+
+        
+    
+    
+            circle_85351ee032813dd12bf32a286a1a10f7.bindTooltip(
+                `<div>
+                     LANDSKRONA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f75e49f1c4248874b92f25b7796055d2 = L.circle(
+                [58.5167, 13.05118335],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_9aeb2e8b81ae64fac45096ac1817ec8d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_23238600ac5391c31e768ffa44074cff = $(`<div id="html_23238600ac5391c31e768ffa44074cff" style="width: 100.0%; height: 100.0%;">Port: LIDKÖPING (ID: 40042)</div>`)[0];
+                popup_9aeb2e8b81ae64fac45096ac1817ec8d.setContent(html_23238600ac5391c31e768ffa44074cff);
+            
+        
+
+        circle_f75e49f1c4248874b92f25b7796055d2.bindPopup(popup_9aeb2e8b81ae64fac45096ac1817ec8d)
+        ;
+
+        
+    
+    
+            circle_f75e49f1c4248874b92f25b7796055d2.bindTooltip(
+                `<div>
+                     LIDKÖPING
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_357b59edfe14041bdcf5050437ceb7f9 = L.circle(
+                [58.1333, 12.13333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_d48d2af3328698bed650cdc247d2baf1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2da4ded9f9339d59fe9748521a71b77f = $(`<div id="html_2da4ded9f9339d59fe9748521a71b77f" style="width: 100.0%; height: 100.0%;">Port: LILLA EDET (ID: 5053)</div>`)[0];
+                popup_d48d2af3328698bed650cdc247d2baf1.setContent(html_2da4ded9f9339d59fe9748521a71b77f);
+            
+        
+
+        circle_357b59edfe14041bdcf5050437ceb7f9.bindPopup(popup_d48d2af3328698bed650cdc247d2baf1)
+        ;
+
+        
+    
+    
+            circle_357b59edfe14041bdcf5050437ceb7f9.bindTooltip(
+                `<div>
+                     LILLA EDET
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_be966a71de6a4f8ca924dc18ebc0a9fc = L.circle(
+                [60.44905, 26.2526],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b26abeef1dfbdd4b2309851aaa27e5fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c24175d75648b263da2421c1c9231e5b = $(`<div id="html_c24175d75648b263da2421c1c9231e5b" style="width: 100.0%; height: 100.0%;">Port: LOVIISA (ID: 213497901)</div>`)[0];
+                popup_b26abeef1dfbdd4b2309851aaa27e5fe.setContent(html_c24175d75648b263da2421c1c9231e5b);
+            
+        
+
+        circle_be966a71de6a4f8ca924dc18ebc0a9fc.bindPopup(popup_b26abeef1dfbdd4b2309851aaa27e5fe)
+        ;
+
+        
+    
+    
+            circle_be966a71de6a4f8ca924dc18ebc0a9fc.bindTooltip(
+                `<div>
+                     LOVIISA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a9435d487515eca5dc9d1bfdd9b29c84 = L.circle(
+                [65.58393, 22.16689],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_bf60ce2cef3f8f1a548023a3d46e5959 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ed49643cf431a3d530112d91e21aed8 = $(`<div id="html_7ed49643cf431a3d530112d91e21aed8" style="width: 100.0%; height: 100.0%;">Port: LULEÅ (ID: 49490)</div>`)[0];
+                popup_bf60ce2cef3f8f1a548023a3d46e5959.setContent(html_7ed49643cf431a3d530112d91e21aed8);
+            
+        
+
+        circle_a9435d487515eca5dc9d1bfdd9b29c84.bindPopup(popup_bf60ce2cef3f8f1a548023a3d46e5959)
+        ;
+
+        
+    
+    
+            circle_a9435d487515eca5dc9d1bfdd9b29c84.bindTooltip(
+                `<div>
+                     LULEÅ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_56d8ed17ed5b5ba19713410b4fe7e885 = L.circle(
+                [58.26658, 11.43327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b01d385062ed288b402fde9dd69c4202 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ac93647b4ed6ac40caff3687a5caab1 = $(`<div id="html_7ac93647b4ed6ac40caff3687a5caab1" style="width: 100.0%; height: 100.0%;">Port: LYSEKIL (ID: 94)</div>`)[0];
+                popup_b01d385062ed288b402fde9dd69c4202.setContent(html_7ac93647b4ed6ac40caff3687a5caab1);
+            
+        
+
+        circle_56d8ed17ed5b5ba19713410b4fe7e885.bindPopup(popup_b01d385062ed288b402fde9dd69c4202)
+        ;
+
+        
+    
+    
+            circle_56d8ed17ed5b5ba19713410b4fe7e885.bindTooltip(
+                `<div>
+                     LYSEKIL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_7f59a7361adfff914c861d0fdb03c69e = L.circle(
+                [59.522, 10.773],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_6996b8e610f812fa9e508964c182c40a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8a1026e227e28e0675d830350eb9464 = $(`<div id="html_b8a1026e227e28e0675d830350eb9464" style="width: 100.0%; height: 100.0%;">Port: LÄNSI (ID: 9217)</div>`)[0];
+                popup_6996b8e610f812fa9e508964c182c40a.setContent(html_b8a1026e227e28e0675d830350eb9464);
+            
+        
+
+        circle_7f59a7361adfff914c861d0fdb03c69e.bindPopup(popup_6996b8e610f812fa9e508964c182c40a)
+        ;
+
+        
+    
+    
+            circle_7f59a7361adfff914c861d0fdb03c69e.bindTooltip(
+                `<div>
+                     LÄNSI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_167411079aacc7c06d1dab17a50cfaaf = L.circle(
+                [58.0401, 12.149],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_28f756c1a166e193b73389ee2e45ce86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3548fe217ce4f4b88f5fb76544d8f688 = $(`<div id="html_3548fe217ce4f4b88f5fb76544d8f688" style="width: 100.0%; height: 100.0%;">Port: LÖDÖSE (ID: 398)</div>`)[0];
+                popup_28f756c1a166e193b73389ee2e45ce86.setContent(html_3548fe217ce4f4b88f5fb76544d8f688);
+            
+        
+
+        circle_167411079aacc7c06d1dab17a50cfaaf.bindPopup(popup_28f756c1a166e193b73389ee2e45ce86)
+        ;
+
+        
+    
+    
+            circle_167411079aacc7c06d1dab17a50cfaaf.bindTooltip(
+                `<div>
+                     LÖDÖSE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2a4b6b075116f5aae19b006d4e85edc2 = L.circle(
+                [55.616, 13.0255],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_17c112bde59580465d59dcf59c03ffc3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c98d6911ad49b6447bac3a0b711fa74 = $(`<div id="html_8c98d6911ad49b6447bac3a0b711fa74" style="width: 100.0%; height: 100.0%;">Port: MALMÖ (ID: 932)</div>`)[0];
+                popup_17c112bde59580465d59dcf59c03ffc3.setContent(html_8c98d6911ad49b6447bac3a0b711fa74);
+            
+        
+
+        circle_2a4b6b075116f5aae19b006d4e85edc2.bindPopup(popup_17c112bde59580465d59dcf59c03ffc3)
+        ;
+
+        
+    
+    
+            circle_2a4b6b075116f5aae19b006d4e85edc2.bindTooltip(
+                `<div>
+                     MALMÖ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ab1c88198708f159d0717f77357718e1 = L.circle(
+                [60.0949, 19.934],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_1eb044c701ad4d2c4a6d96e3c5f2853f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1e5854bde949664270a3889e605e84db = $(`<div id="html_1e5854bde949664270a3889e605e84db" style="width: 100.0%; height: 100.0%;">Port: MARIEHAMN (ID: 99)</div>`)[0];
+                popup_1eb044c701ad4d2c4a6d96e3c5f2853f.setContent(html_1e5854bde949664270a3889e605e84db);
+            
+        
+
+        circle_ab1c88198708f159d0717f77357718e1.bindPopup(popup_1eb044c701ad4d2c4a6d96e3c5f2853f)
+        ;
+
+        
+    
+    
+            circle_ab1c88198708f159d0717f77357718e1.bindTooltip(
+                `<div>
+                     MARIEHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_881bc894423812224453c4032dbbb1b6 = L.circle(
+                [58.717, 13.817],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_2d9f92c31cc4ccfe645523f3b9bb58f2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9ca3692ca2ba7b2fc132fc7504134cbb = $(`<div id="html_9ca3692ca2ba7b2fc132fc7504134cbb" style="width: 100.0%; height: 100.0%;">Port: MARIESTAD (ID: 4004)</div>`)[0];
+                popup_2d9f92c31cc4ccfe645523f3b9bb58f2.setContent(html_9ca3692ca2ba7b2fc132fc7504134cbb);
+            
+        
+
+        circle_881bc894423812224453c4032dbbb1b6.bindPopup(popup_2d9f92c31cc4ccfe645523f3b9bb58f2)
+        ;
+
+        
+    
+    
+            circle_881bc894423812224453c4032dbbb1b6.bindTooltip(
+                `<div>
+                     MARIESTAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_98ec54103ff2284a95432b7ad6768c64 = L.circle(
+                [61.62, 21.485],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_e1609080f784e492b6a4e0eb151c1290 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dba24af1c18300a1adf837d59672424c = $(`<div id="html_dba24af1c18300a1adf837d59672424c" style="width: 100.0%; height: 100.0%;">Port: PORI/MÄNTYLUOTO (ID: 8475)</div>`)[0];
+                popup_e1609080f784e492b6a4e0eb151c1290.setContent(html_dba24af1c18300a1adf837d59672424c);
+            
+        
+
+        circle_98ec54103ff2284a95432b7ad6768c64.bindPopup(popup_e1609080f784e492b6a4e0eb151c1290)
+        ;
+
+        
+    
+    
+            circle_98ec54103ff2284a95432b7ad6768c64.bindTooltip(
+                `<div>
+                     PORI/MÄNTYLUOTO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_5d7a84de58315386844725ac996e76a2 = L.circle(
+                [60.467, 22.017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_5f2f8f27fbecd9d3e928c48d865fcfa4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0594f68cb521367d13a651f046950a6 = $(`<div id="html_a0594f68cb521367d13a651f046950a6" style="width: 100.0%; height: 100.0%;">Port: NAANTALI/NÅDENDAL (ID: 91013)</div>`)[0];
+                popup_5f2f8f27fbecd9d3e928c48d865fcfa4.setContent(html_a0594f68cb521367d13a651f046950a6);
+            
+        
+
+        circle_5d7a84de58315386844725ac996e76a2.bindPopup(popup_5f2f8f27fbecd9d3e928c48d865fcfa4)
+        ;
+
+        
+    
+    
+            circle_5d7a84de58315386844725ac996e76a2.bindTooltip(
+                `<div>
+                     NAANTALI/NÅDENDAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ebafe8697064e5b07a6a380957d0077b = L.circle(
+                [58.61, 16.194],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_6f81e7b123f95915a4131e703280c3fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a90c0254f6aff42038378269c08e476a = $(`<div id="html_a90c0254f6aff42038378269c08e476a" style="width: 100.0%; height: 100.0%;">Port: NORRKÖPING (ID: 1416)</div>`)[0];
+                popup_6f81e7b123f95915a4131e703280c3fa.setContent(html_a90c0254f6aff42038378269c08e476a);
+            
+        
+
+        circle_ebafe8697064e5b07a6a380957d0077b.bindPopup(popup_6f81e7b123f95915a4131e703280c3fa)
+        ;
+
+        
+    
+    
+            circle_ebafe8697064e5b07a6a380957d0077b.bindTooltip(
+                `<div>
+                     NORRKÖPING
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d358441cf81d917c31c24e9b97b0bf32 = L.circle(
+                [60.9341, 17.1671],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_05d416adca6a4844883553d3e43fa111 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e2807181bc05bb229e638e2b558e9f66 = $(`<div id="html_e2807181bc05bb229e638e2b558e9f66" style="width: 100.0%; height: 100.0%;">Port: NORRSUNDET (ID: 9593)</div>`)[0];
+                popup_05d416adca6a4844883553d3e43fa111.setContent(html_e2807181bc05bb229e638e2b558e9f66);
+            
+        
+
+        circle_d358441cf81d917c31c24e9b97b0bf32.bindPopup(popup_05d416adca6a4844883553d3e43fa111)
+        ;
+
+        
+    
+    
+            circle_d358441cf81d917c31c24e9b97b0bf32.bindTooltip(
+                `<div>
+                     NORRSUNDET
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_4315154ebb5c5468a61572e62d2763e4 = L.circle(
+                [58.9, 17.95],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_0142527898791c4afdccde0b44a0dcbb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c8eb09ce44a5e89502f9ed86b2cb535 = $(`<div id="html_4c8eb09ce44a5e89502f9ed86b2cb535" style="width: 100.0%; height: 100.0%;">Port: NYNÄSHAMN (ID: 953)</div>`)[0];
+                popup_0142527898791c4afdccde0b44a0dcbb.setContent(html_4c8eb09ce44a5e89502f9ed86b2cb535);
+            
+        
+
+        circle_4315154ebb5c5468a61572e62d2763e4.bindPopup(popup_0142527898791c4afdccde0b44a0dcbb)
+        ;
+
+        
+    
+    
+            circle_4315154ebb5c5468a61572e62d2763e4.bindTooltip(
+                `<div>
+                     NYNÄSHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ec4b81cc83806aee2cd430b714867275 = L.circle(
+                [57.25, 16.45],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_9f2731d7a3bbf0426941dc66ece1248d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5704eeca384209ba009c67edcbb92362 = $(`<div id="html_5704eeca384209ba009c67edcbb92362" style="width: 100.0%; height: 100.0%;">Port: OSKARSHAMN (ID: 12)</div>`)[0];
+                popup_9f2731d7a3bbf0426941dc66ece1248d.setContent(html_5704eeca384209ba009c67edcbb92362);
+            
+        
+
+        circle_ec4b81cc83806aee2cd430b714867275.bindPopup(popup_9f2731d7a3bbf0426941dc66ece1248d)
+        ;
+
+        
+    
+    
+            circle_ec4b81cc83806aee2cd430b714867275.bindTooltip(
+                `<div>
+                     OSKARSHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_72044d0aa8b2725d6ec1cb352001a9a6 = L.circle(
+                [59.9, 10.784],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_fb39e3d789921ae7aa3589872fa340e0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_917a997b4ce4e6f2c124a2a8cded8563 = $(`<div id="html_917a997b4ce4e6f2c124a2a8cded8563" style="width: 100.0%; height: 100.0%;">Port: OSLO (ID: 403)</div>`)[0];
+                popup_fb39e3d789921ae7aa3589872fa340e0.setContent(html_917a997b4ce4e6f2c124a2a8cded8563);
+            
+        
+
+        circle_72044d0aa8b2725d6ec1cb352001a9a6.bindPopup(popup_fb39e3d789921ae7aa3589872fa340e0)
+        ;
+
+        
+    
+    
+            circle_72044d0aa8b2725d6ec1cb352001a9a6.bindTooltip(
+                `<div>
+                     OSLO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_769dc4507a0fe04e67e8fd6cceaa3388 = L.circle(
+                [58.949, 14.0294],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_17566ff9fc7695692e1847ac1d706227 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7754a547c9cb7fd372fcc8547f65b322 = $(`<div id="html_7754a547c9cb7fd372fcc8547f65b322" style="width: 100.0%; height: 100.0%;">Port: OTTERBÄCKEN (ID: 224)</div>`)[0];
+                popup_17566ff9fc7695692e1847ac1d706227.setContent(html_7754a547c9cb7fd372fcc8547f65b322);
+            
+        
+
+        circle_769dc4507a0fe04e67e8fd6cceaa3388.bindPopup(popup_17566ff9fc7695692e1847ac1d706227)
+        ;
+
+        
+    
+    
+            circle_769dc4507a0fe04e67e8fd6cceaa3388.bindTooltip(
+                `<div>
+                     OTTERBÄCKEN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_166ae9c95059a7e0baa1e5ac78530c18 = L.circle(
+                [65.0167, 25.4667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_42d48a0cef6d47254d0518eaa7580b76 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad9b85b2c80409058f41c0d75b06b0f9 = $(`<div id="html_ad9b85b2c80409058f41c0d75b06b0f9" style="width: 100.0%; height: 100.0%;">Port: OULU (ID: 2140)</div>`)[0];
+                popup_42d48a0cef6d47254d0518eaa7580b76.setContent(html_ad9b85b2c80409058f41c0d75b06b0f9);
+            
+        
+
+        circle_166ae9c95059a7e0baa1e5ac78530c18.bindPopup(popup_42d48a0cef6d47254d0518eaa7580b76)
+        ;
+
+        
+    
+    
+            circle_166ae9c95059a7e0baa1e5ac78530c18.bindTooltip(
+                `<div>
+                     OULU
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_dde3310a2761d953fb8b6a55b38abe7b = L.circle(
+                [58.667, 17.121],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_9eef68ed6b6256d94d24e4878e2188c2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2ea364f719236f213aefb5b046a8d818 = $(`<div id="html_2ea364f719236f213aefb5b046a8d818" style="width: 100.0%; height: 100.0%;">Port: OXELÖSUND (ID: 994)</div>`)[0];
+                popup_9eef68ed6b6256d94d24e4878e2188c2.setContent(html_2ea364f719236f213aefb5b046a8d818);
+            
+        
+
+        circle_dde3310a2761d953fb8b6a55b38abe7b.bindPopup(popup_9eef68ed6b6256d94d24e4878e2188c2)
+        ;
+
+        
+    
+    
+            circle_dde3310a2761d953fb8b6a55b38abe7b.bindTooltip(
+                `<div>
+                     OXELÖSUND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9a0831c16d5db679736d18838aa82305 = L.circle(
+                [63.684, 22.7272],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_c7ffe35e4fde506068a96d45522fce07 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0fc2fde253da414c842970aff187cea = $(`<div id="html_c0fc2fde253da414c842970aff187cea" style="width: 100.0%; height: 100.0%;">Port: PIETARSAARI (ID: 3+24442)</div>`)[0];
+                popup_c7ffe35e4fde506068a96d45522fce07.setContent(html_c0fc2fde253da414c842970aff187cea);
+            
+        
+
+        circle_9a0831c16d5db679736d18838aa82305.bindPopup(popup_c7ffe35e4fde506068a96d45522fce07)
+        ;
+
+        
+    
+    
+            circle_9a0831c16d5db679736d18838aa82305.bindTooltip(
+                `<div>
+                     PIETARSAARI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_96119fae55db869dbb493a978759600d = L.circle(
+                [64.6845, 24.4836],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_fe5bcf45ca6177c4688682ed36bd91fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f0835b6d98496dd7ff4bfaf3cbac233 = $(`<div id="html_1f0835b6d98496dd7ff4bfaf3cbac233" style="width: 100.0%; height: 100.0%;">Port: RAAHE (ID: 3280995)</div>`)[0];
+                popup_fe5bcf45ca6177c4688682ed36bd91fb.setContent(html_1f0835b6d98496dd7ff4bfaf3cbac233);
+            
+        
+
+        circle_96119fae55db869dbb493a978759600d.bindPopup(popup_fe5bcf45ca6177c4688682ed36bd91fb)
+        ;
+
+        
+    
+    
+            circle_96119fae55db869dbb493a978759600d.bindTooltip(
+                `<div>
+                     RAAHE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2bdda333d58cb7f77154c952e56ea139 = L.circle(
+                [64.1831, 23.8332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_7e870496a541225784d4a502035c4fc1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aea9e0efec35e777bfd96aa148999318 = $(`<div id="html_aea9e0efec35e777bfd96aa148999318" style="width: 100.0%; height: 100.0%;">Port: KALAJOKI (ID: 74829)</div>`)[0];
+                popup_7e870496a541225784d4a502035c4fc1.setContent(html_aea9e0efec35e777bfd96aa148999318);
+            
+        
+
+        circle_2bdda333d58cb7f77154c952e56ea139.bindPopup(popup_7e870496a541225784d4a502035c4fc1)
+        ;
+
+        
+    
+    
+            circle_2bdda333d58cb7f77154c952e56ea139.bindTooltip(
+                `<div>
+                     KALAJOKI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_7301575c7ecb8f7f6d7961b783afda49 = L.circle(
+                [61.1329, 21.4995],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_f5283816201cf879e1716b8964d62e6b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f1e1c5b1b52287db6a899728da7fe26a = $(`<div id="html_f1e1c5b1b52287db6a899728da7fe26a" style="width: 100.0%; height: 100.0%;">Port: RAUMA (ID: 89)</div>`)[0];
+                popup_f5283816201cf879e1716b8964d62e6b.setContent(html_f1e1c5b1b52287db6a899728da7fe26a);
+            
+        
+
+        circle_7301575c7ecb8f7f6d7961b783afda49.bindPopup(popup_f5283816201cf879e1716b8964d62e6b)
+        ;
+
+        
+    
+    
+            circle_7301575c7ecb8f7f6d7961b783afda49.bindTooltip(
+                `<div>
+                     RAUMA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_4c62f5ef4d6e45664ed4ba1976544b7b = L.circle(
+                [56.9521, 24.08341],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_1240cdc15c8aa9a4bb6ba7e16cbb4726 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f065d815d48f77ee91e8a702afcd7b83 = $(`<div id="html_f065d815d48f77ee91e8a702afcd7b83" style="width: 100.0%; height: 100.0%;">Port: RIGA (ID: 92248)</div>`)[0];
+                popup_1240cdc15c8aa9a4bb6ba7e16cbb4726.setContent(html_f065d815d48f77ee91e8a702afcd7b83);
+            
+        
+
+        circle_4c62f5ef4d6e45664ed4ba1976544b7b.bindPopup(popup_1240cdc15c8aa9a4bb6ba7e16cbb4726)
+        ;
+
+        
+    
+    
+            circle_4c62f5ef4d6e45664ed4ba1976544b7b.bindTooltip(
+                `<div>
+                     RIGA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_6895fb0bd99d312d2a438ea2c6e75b75 = L.circle(
+                [63.534, 19.4449],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b83b45407b1a357fb8791cf6d84d5ed3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9ff61adf228a235294cc8296cc760659 = $(`<div id="html_9ff61adf228a235294cc8296cc760659" style="width: 100.0%; height: 100.0%;">Port: RUNDVIK (ID: 4620)</div>`)[0];
+                popup_b83b45407b1a357fb8791cf6d84d5ed3.setContent(html_9ff61adf228a235294cc8296cc760659);
+            
+        
+
+        circle_6895fb0bd99d312d2a438ea2c6e75b75.bindPopup(popup_b83b45407b1a357fb8791cf6d84d5ed3)
+        ;
+
+        
+    
+    
+            circle_6895fb0bd99d312d2a438ea2c6e75b75.bindTooltip(
+                `<div>
+                     RUNDVIK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_3281bd740fa306ecb7b28b1fa62db021 = L.circle(
+                [55.567, 14.36666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_58dd40c553386db5c536103e44c3ff0d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f67add02c6e898baeca5dec29accc37 = $(`<div id="html_4f67add02c6e898baeca5dec29accc37" style="width: 100.0%; height: 100.0%;">Port: SIMRISHAMN (ID: 350)</div>`)[0];
+                popup_58dd40c553386db5c536103e44c3ff0d.setContent(html_4f67add02c6e898baeca5dec29accc37);
+            
+        
+
+        circle_3281bd740fa306ecb7b28b1fa62db021.bindPopup(popup_58dd40c553386db5c536103e44c3ff0d)
+        ;
+
+        
+    
+    
+            circle_3281bd740fa306ecb7b28b1fa62db021.bindTooltip(
+                `<div>
+                     SIMRISHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1661511f96e8e5b09888f6caa2925028 = L.circle(
+                [64.684, 21.2518],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_68ed0a7c559e9fe61eb95d819fd5886f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dbcac802aa069f4df304f04ac1d1a9f4 = $(`<div id="html_dbcac802aa069f4df304f04ac1d1a9f4" style="width: 100.0%; height: 100.0%;">Port: SKELLEFTEHAMN (ID: 1945)</div>`)[0];
+                popup_68ed0a7c559e9fe61eb95d819fd5886f.setContent(html_dbcac802aa069f4df304f04ac1d1a9f4);
+            
+        
+
+        circle_1661511f96e8e5b09888f6caa2925028.bindPopup(popup_68ed0a7c559e9fe61eb95d819fd5886f)
+        ;
+
+        
+    
+    
+            circle_1661511f96e8e5b09888f6caa2925028.bindTooltip(
+                `<div>
+                     SKELLEFTEHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_6a3e51ae62e8a8d7dbff1ee7833d6e13 = L.circle(
+                [59.317, 13.4398],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_12426abe994da774df82f76ccb26d0c5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_82e452e4b8b590df97cdd3d6c19b5d3a = $(`<div id="html_82e452e4b8b590df97cdd3d6c19b5d3a" style="width: 100.0%; height: 100.0%;">Port: SKOGHALL (ID: 94486)</div>`)[0];
+                popup_12426abe994da774df82f76ccb26d0c5.setContent(html_82e452e4b8b590df97cdd3d6c19b5d3a);
+            
+        
+
+        circle_6a3e51ae62e8a8d7dbff1ee7833d6e13.bindPopup(popup_12426abe994da774df82f76ccb26d0c5)
+        ;
+
+        
+    
+    
+            circle_6a3e51ae62e8a8d7dbff1ee7833d6e13.bindTooltip(
+                `<div>
+                     SKOGHALL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_005208959d55824962b87be42c30655e = L.circle(
+                [60.6505, 17.4171],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_4f46c8db50d09547257b6980f22410ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a39576d0ff8aef4b112a23fe029c3159 = $(`<div id="html_a39576d0ff8aef4b112a23fe029c3159" style="width: 100.0%; height: 100.0%;">Port: SKUTSKÄR (ID: 848)</div>`)[0];
+                popup_4f46c8db50d09547257b6980f22410ad.setContent(html_a39576d0ff8aef4b112a23fe029c3159);
+            
+        
+
+        circle_005208959d55824962b87be42c30655e.bindPopup(popup_4f46c8db50d09547257b6980f22410ad)
+        ;
+
+        
+    
+    
+            circle_005208959d55824962b87be42c30655e.bindTooltip(
+                `<div>
+                     SKUTSKÄR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d636bbdf9454e9e659dd9d3f814c793d = L.circle(
+                [60.31, 25.56622],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_4481b51d5fbd7c75c0f40c81000c2d68 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5549bba4401d9950c7c85c8d90704ad = $(`<div id="html_c5549bba4401d9950c7c85c8d90704ad" style="width: 100.0%; height: 100.0%;">Port: SKÖLDVIK (ID: 553)</div>`)[0];
+                popup_4481b51d5fbd7c75c0f40c81000c2d68.setContent(html_c5549bba4401d9950c7c85c8d90704ad);
+            
+        
+
+        circle_d636bbdf9454e9e659dd9d3f814c793d.bindPopup(popup_4481b51d5fbd7c75c0f40c81000c2d68)
+        ;
+
+        
+    
+    
+            circle_d636bbdf9454e9e659dd9d3f814c793d.bindTooltip(
+                `<div>
+                     SKÖLDVIK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a7d0c0971ca188a4b56b6b88ce1ca452 = L.circle(
+                [57.717, 18.816],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_f2246e823e0501543bc0aa3d8fff13b0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1cb405749b444704c73cf91f7b77ad82 = $(`<div id="html_1cb405749b444704c73cf91f7b77ad82" style="width: 100.0%; height: 100.0%;">Port: SLITE (ID: 492)</div>`)[0];
+                popup_f2246e823e0501543bc0aa3d8fff13b0.setContent(html_1cb405749b444704c73cf91f7b77ad82);
+            
+        
+
+        circle_a7d0c0971ca188a4b56b6b88ce1ca452.bindPopup(popup_f2246e823e0501543bc0aa3d8fff13b0)
+        ;
+
+        
+    
+    
+            circle_a7d0c0971ca188a4b56b6b88ce1ca452.bindTooltip(
+                `<div>
+                     SLITE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_14aed6c5604a85a75f7c1e6450d94947 = L.circle(
+                [59.9344, 30.322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_5fa0d96efc284173a6e90fe7de12e7c0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8d729e3a8f1494e9efee3c02894b19c = $(`<div id="html_d8d729e3a8f1494e9efee3c02894b19c" style="width: 100.0%; height: 100.0%;">Port: SAINT PETERSBURG (ID: 190)</div>`)[0];
+                popup_5fa0d96efc284173a6e90fe7de12e7c0.setContent(html_d8d729e3a8f1494e9efee3c02894b19c);
+            
+        
+
+        circle_14aed6c5604a85a75f7c1e6450d94947.bindPopup(popup_5fa0d96efc284173a6e90fe7de12e7c0)
+        ;
+
+        
+    
+    
+            circle_14aed6c5604a85a75f7c1e6450d94947.bindTooltip(
+                `<div>
+                     SAINT PETERSBURG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2b3f10cfe1e7e005af1fe4422fba74bb = L.circle(
+                [59.3179, 18.061],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_82a22c947e0e480480e3659d17a28e91 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_74c815f9b2db4af3dd4f4e0539436a5e = $(`<div id="html_74c815f9b2db4af3dd4f4e0539436a5e" style="width: 100.0%; height: 100.0%;">Port: STOCKHOLM (ID: 985)</div>`)[0];
+                popup_82a22c947e0e480480e3659d17a28e91.setContent(html_74c815f9b2db4af3dd4f4e0539436a5e);
+            
+        
+
+        circle_2b3f10cfe1e7e005af1fe4422fba74bb.bindPopup(popup_82a22c947e0e480480e3659d17a28e91)
+        ;
+
+        
+    
+    
+            circle_2b3f10cfe1e7e005af1fe4422fba74bb.bindTooltip(
+                `<div>
+                     STOCKHOLM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_0154e665f5fde3e78d0d2ce916ae8a48 = L.circle(
+                [57.83332, 18.80421],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_829a3fe00b2997665043cb3df0001001 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_93767d54c67d96f297a7065f4f181255 = $(`<div id="html_93767d54c67d96f297a7065f4f181255" style="width: 100.0%; height: 100.0%;">Port: STORUGNS (ID: 7324723)</div>`)[0];
+                popup_829a3fe00b2997665043cb3df0001001.setContent(html_93767d54c67d96f297a7065f4f181255);
+            
+        
+
+        circle_0154e665f5fde3e78d0d2ce916ae8a48.bindPopup(popup_829a3fe00b2997665043cb3df0001001)
+        ;
+
+        
+    
+    
+            circle_0154e665f5fde3e78d0d2ce916ae8a48.bindTooltip(
+                `<div>
+                     STORUGNS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_abd355cc7ff30eea8e11afb56d4c8fc7 = L.circle(
+                [62.416612, 17.333234],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_2d590ae6508499236a1e7e797a8229b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c2bb04f0a7c9986a296cf59a3d303f40 = $(`<div id="html_c2bb04f0a7c9986a296cf59a3d303f40" style="width: 100.0%; height: 100.0%;">Port: SUNDSVALL (ID: 938412)</div>`)[0];
+                popup_2d590ae6508499236a1e7e797a8229b5.setContent(html_c2bb04f0a7c9986a296cf59a3d303f40);
+            
+        
+
+        circle_abd355cc7ff30eea8e11afb56d4c8fc7.bindPopup(popup_2d590ae6508499236a1e7e797a8229b5)
+        ;
+
+        
+    
+    
+            circle_abd355cc7ff30eea8e11afb56d4c8fc7.bindTooltip(
+                `<div>
+                     SUNDSVALL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_25fc90524d7e6b68cfcabb6ce21be8af = L.circle(
+                [57.8333128, 12.016734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_9392fd6bccd5499755a1ea76a005791f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da356fe2a4cf279bc6d3e05890a61b80 = $(`<div id="html_da356fe2a4cf279bc6d3e05890a61b80" style="width: 100.0%; height: 100.0%;">Port: SURTE (ID: 12980)</div>`)[0];
+                popup_9392fd6bccd5499755a1ea76a005791f.setContent(html_da356fe2a4cf279bc6d3e05890a61b80);
+            
+        
+
+        circle_25fc90524d7e6b68cfcabb6ce21be8af.bindPopup(popup_9392fd6bccd5499755a1ea76a005791f)
+        ;
+
+        
+    
+    
+            circle_25fc90524d7e6b68cfcabb6ce21be8af.bindTooltip(
+                `<div>
+                     SURTE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1c262486f14857e17bbbfe76b56b78eb = L.circle(
+                [61.3142, 17.0812],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_208088842d039792ad3d9dd339fdd73b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f65b6ab403fe5a2ea33a6bba85582193 = $(`<div id="html_f65b6ab403fe5a2ea33a6bba85582193" style="width: 100.0%; height: 100.0%;">Port: SÖDERHAMN (ID: 12812)</div>`)[0];
+                popup_208088842d039792ad3d9dd339fdd73b.setContent(html_f65b6ab403fe5a2ea33a6bba85582193);
+            
+        
+
+        circle_1c262486f14857e17bbbfe76b56b78eb.bindPopup(popup_208088842d039792ad3d9dd339fdd73b)
+        ;
+
+        
+    
+    
+            circle_1c262486f14857e17bbbfe76b56b78eb.bindTooltip(
+                `<div>
+                     SÖDERHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_86bed9d36fadfcdd641aa9e35fa21ada = L.circle(
+                [59.2, 17.832],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_09c74ab8fed90ee0759201c6cc21278b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a8e80cfd4f0b158100145314df2fce07 = $(`<div id="html_a8e80cfd4f0b158100145314df2fce07" style="width: 100.0%; height: 100.0%;">Port: SÖDERTÄLJE (ID: 4299)</div>`)[0];
+                popup_09c74ab8fed90ee0759201c6cc21278b.setContent(html_a8e80cfd4f0b158100145314df2fce07);
+            
+        
+
+        circle_86bed9d36fadfcdd641aa9e35fa21ada.bindPopup(popup_09c74ab8fed90ee0759201c6cc21278b)
+        ;
+
+        
+    
+    
+            circle_86bed9d36fadfcdd641aa9e35fa21ada.bindTooltip(
+                `<div>
+                     SÖDERTÄLJE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a02128205b9ee6c296eede8784ee5e45 = L.circle(
+                [56.0508, 14.583321],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_88c70ca747dbd8e99efea104c7d972b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_56d176e8d73767a4252a242648b0a0af = $(`<div id="html_56d176e8d73767a4252a242648b0a0af" style="width: 100.0%; height: 100.0%;">Port: SÖLVESBORG (ID: 8312)</div>`)[0];
+                popup_88c70ca747dbd8e99efea104c7d972b3.setContent(html_56d176e8d73767a4252a242648b0a0af);
+            
+        
+
+        circle_a02128205b9ee6c296eede8784ee5e45.bindPopup(popup_88c70ca747dbd8e99efea104c7d972b3)
+        ;
+
+        
+    
+    
+            circle_a02128205b9ee6c296eede8784ee5e45.bindTooltip(
+                `<div>
+                     SÖLVESBORG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f7c948f6ed1fee3ce1b3489846ff27e0 = L.circle(
+                [62.51978, 17.5134],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_9bff9975bed304091db21b2333a43f18 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c9d4307a774afbc101a9a5a8b93febe8 = $(`<div id="html_c9d4307a774afbc101a9a5a8b93febe8" style="width: 100.0%; height: 100.0%;">Port: SÖRÅKER (ID: 587)</div>`)[0];
+                popup_9bff9975bed304091db21b2333a43f18.setContent(html_c9d4307a774afbc101a9a5a8b93febe8);
+            
+        
+
+        circle_f7c948f6ed1fee3ce1b3489846ff27e0.bindPopup(popup_9bff9975bed304091db21b2333a43f18)
+        ;
+
+        
+    
+    
+            circle_f7c948f6ed1fee3ce1b3489846ff27e0.bindTooltip(
+                `<div>
+                     SÖRÅKER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e1a6f1e0a88f8a6126336fa173cca884 = L.circle(
+                [59.42538, 24.74848],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_c4164516eea849ccb40f9c7e18214336 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da15af5daf993b39c01550515d92a392 = $(`<div id="html_da15af5daf993b39c01550515d92a392" style="width: 100.0%; height: 100.0%;">Port: TALLIN (ID: 24325)</div>`)[0];
+                popup_c4164516eea849ccb40f9c7e18214336.setContent(html_da15af5daf993b39c01550515d92a392);
+            
+        
+
+        circle_e1a6f1e0a88f8a6126336fa173cca884.bindPopup(popup_c4164516eea849ccb40f9c7e18214336)
+        ;
+
+        
+    
+    
+            circle_e1a6f1e0a88f8a6126336fa173cca884.bindTooltip(
+                `<div>
+                     TALLIN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_18fbec7a87ccd2fa72140b48e6c99d3c = L.circle(
+                [65.7667, 24.1448],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_49356fbb52dd0c4507bd5c8067c01524 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21bb20806bff160a6a52adc74796ce8b = $(`<div id="html_21bb20806bff160a6a52adc74796ce8b" style="width: 100.0%; height: 100.0%;">Port: TORNIO (ID: 43827439)</div>`)[0];
+                popup_49356fbb52dd0c4507bd5c8067c01524.setContent(html_21bb20806bff160a6a52adc74796ce8b);
+            
+        
+
+        circle_18fbec7a87ccd2fa72140b48e6c99d3c.bindPopup(popup_49356fbb52dd0c4507bd5c8067c01524)
+        ;
+
+        
+    
+    
+            circle_18fbec7a87ccd2fa72140b48e6c99d3c.bindTooltip(
+                `<div>
+                     TORNIO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_8baa8f82862034e128d657d96e0b1d0d = L.circle(
+                [55.36668574, 13.167417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_20c15709de6d9e0275101666cad027bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3d2764cdab494d5d748ed1ba29671ee7 = $(`<div id="html_3d2764cdab494d5d748ed1ba29671ee7" style="width: 100.0%; height: 100.0%;">Port: TRELLEBORG (ID: 782598)</div>`)[0];
+                popup_20c15709de6d9e0275101666cad027bf.setContent(html_3d2764cdab494d5d748ed1ba29671ee7);
+            
+        
+
+        circle_8baa8f82862034e128d657d96e0b1d0d.bindPopup(popup_20c15709de6d9e0275101666cad027bf)
+        ;
+
+        
+    
+    
+            circle_8baa8f82862034e128d657d96e0b1d0d.bindTooltip(
+                `<div>
+                     TRELLEBORG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_33e379e3e0f2ce62374973e491e3a8a3 = L.circle(
+                [58.284213, 12.28358237],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_4a19f211aeb87531223c9738b1d3a2f7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e03dbc0e85b7fb882e43b322ab91f6a = $(`<div id="html_7e03dbc0e85b7fb882e43b322ab91f6a" style="width: 100.0%; height: 100.0%;">Port: TROLLHÄTTAN (ID: 8092)</div>`)[0];
+                popup_4a19f211aeb87531223c9738b1d3a2f7.setContent(html_7e03dbc0e85b7fb882e43b322ab91f6a);
+            
+        
+
+        circle_33e379e3e0f2ce62374973e491e3a8a3.bindPopup(popup_4a19f211aeb87531223c9738b1d3a2f7)
+        ;
+
+        
+    
+    
+            circle_33e379e3e0f2ce62374973e491e3a8a3.bindTooltip(
+                `<div>
+                     TROLLHÄTTAN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d5943db9b35c0afeec5b0b4e579ee0ed = L.circle(
+                [58.63347, 13.434],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_c7cd1d3e1eaaa8a992f2b26ba03250c0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e3f373be67affda6f22727fc7cee369c = $(`<div id="html_e3f373be67affda6f22727fc7cee369c" style="width: 100.0%; height: 100.0%;">Port: HÖNSÄTER (ID: 8128)</div>`)[0];
+                popup_c7cd1d3e1eaaa8a992f2b26ba03250c0.setContent(html_e3f373be67affda6f22727fc7cee369c);
+            
+        
+
+        circle_d5943db9b35c0afeec5b0b4e579ee0ed.bindPopup(popup_c7cd1d3e1eaaa8a992f2b26ba03250c0)
+        ;
+
+        
+    
+    
+            circle_d5943db9b35c0afeec5b0b4e579ee0ed.bindTooltip(
+                `<div>
+                     HÖNSÄTER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_4ff00ab8a7a49dfc06dd54e192e8ff8f = L.circle(
+                [60.4517, 22.253],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_0bda569c68337440c161d0acce8ca77c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cfede40fcead2900ff32500c919e44a4 = $(`<div id="html_cfede40fcead2900ff32500c919e44a4" style="width: 100.0%; height: 100.0%;">Port: TURKU/ÅBO (ID: 847432)</div>`)[0];
+                popup_0bda569c68337440c161d0acce8ca77c.setContent(html_cfede40fcead2900ff32500c919e44a4);
+            
+        
+
+        circle_4ff00ab8a7a49dfc06dd54e192e8ff8f.bindPopup(popup_0bda569c68337440c161d0acce8ca77c)
+        ;
+
+        
+    
+    
+            circle_4ff00ab8a7a49dfc06dd54e192e8ff8f.bindTooltip(
+                `<div>
+                     TURKU/ÅBO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ffd438302c62c0f48433010988e8c83a = L.circle(
+                [58.3555, 11.9334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_09854ca2638cdbaa6f10dbafb619b964 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d3faa75839bfd37994e16879bef6cf77 = $(`<div id="html_d3faa75839bfd37994e16879bef6cf77" style="width: 100.0%; height: 100.0%;">Port: UDDEVALLA (ID: 4215)</div>`)[0];
+                popup_09854ca2638cdbaa6f10dbafb619b964.setContent(html_d3faa75839bfd37994e16879bef6cf77);
+            
+        
+
+        circle_ffd438302c62c0f48433010988e8c83a.bindPopup(popup_09854ca2638cdbaa6f10dbafb619b964)
+        ;
+
+        
+    
+    
+            circle_ffd438302c62c0f48433010988e8c83a.bindTooltip(
+                `<div>
+                     UDDEVALLA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_673b5ab0b31d2ba0ca314deabdfc1e4c = L.circle(
+                [60.8021, 21.4405],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3b22448c08d0dc8913e3cc154e4093a0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26f541dfb2d6a1054353792e65b18a3f = $(`<div id="html_26f541dfb2d6a1054353792e65b18a3f" style="width: 100.0%; height: 100.0%;">Port: UUSIKAUPUNKI/NYSTAD (ID: 8928379)</div>`)[0];
+                popup_3b22448c08d0dc8913e3cc154e4093a0.setContent(html_26f541dfb2d6a1054353792e65b18a3f);
+            
+        
+
+        circle_673b5ab0b31d2ba0ca314deabdfc1e4c.bindPopup(popup_3b22448c08d0dc8913e3cc154e4093a0)
+        ;
+
+        
+    
+    
+            circle_673b5ab0b31d2ba0ca314deabdfc1e4c.bindTooltip(
+                `<div>
+                     UUSIKAUPUNKI/NYSTAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_b6986f9dc3ce28faa20be8ff6ec741e3 = L.circle(
+                [63.0832, 21.616],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_cb1a8d83a3d0c8cf9b3e3c674231e560 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_caf56dfbc9245ad4244f5273c5168d9b = $(`<div id="html_caf56dfbc9245ad4244f5273c5168d9b" style="width: 100.0%; height: 100.0%;">Port: VAASA (ID: 1049)</div>`)[0];
+                popup_cb1a8d83a3d0c8cf9b3e3c674231e560.setContent(html_caf56dfbc9245ad4244f5273c5168d9b);
+            
+        
+
+        circle_b6986f9dc3ce28faa20be8ff6ec741e3.bindPopup(popup_cb1a8d83a3d0c8cf9b3e3c674231e560)
+        ;
+
+        
+    
+    
+            circle_b6986f9dc3ce28faa20be8ff6ec741e3.bindTooltip(
+                `<div>
+                     VAASA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_153004bf5a2dcf360c937562f88ffa06 = L.circle(
+                [57.1129, 12.249],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_473c21478bea937ad5ad702f795fda81 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f51382fbf2584a008ebb1a18768bb572 = $(`<div id="html_f51382fbf2584a008ebb1a18768bb572" style="width: 100.0%; height: 100.0%;">Port: VARBERG (ID: 743)</div>`)[0];
+                popup_473c21478bea937ad5ad702f795fda81.setContent(html_f51382fbf2584a008ebb1a18768bb572);
+            
+        
+
+        circle_153004bf5a2dcf360c937562f88ffa06.bindPopup(popup_473c21478bea937ad5ad702f795fda81)
+        ;
+
+        
+    
+    
+            circle_153004bf5a2dcf360c937562f88ffa06.bindTooltip(
+                `<div>
+                     VARBERG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_01e3c3367a2b2d1d7bf2d47270d1fec6 = L.circle(
+                [58.332, 12.367],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_4b6e589b596aaf53bea8acbba04fb229 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e5556098dbc1e131fb53eb20231a494 = $(`<div id="html_4e5556098dbc1e131fb53eb20231a494" style="width: 100.0%; height: 100.0%;">Port: VARGÖN (ID: 2993948)</div>`)[0];
+                popup_4b6e589b596aaf53bea8acbba04fb229.setContent(html_4e5556098dbc1e131fb53eb20231a494);
+            
+        
+
+        circle_01e3c3367a2b2d1d7bf2d47270d1fec6.bindPopup(popup_4b6e589b596aaf53bea8acbba04fb229)
+        ;
+
+        
+    
+    
+            circle_01e3c3367a2b2d1d7bf2d47270d1fec6.bindTooltip(
+                `<div>
+                     VARGÖN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_6fb1c411849bd4edb39ab6acc98826c3 = L.circle(
+                [57.4783, 21.51646],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_faa6c843fe51f10ab449c4dc656ce17c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_790a29a5bb157dd975b579bcb8dbb8e7 = $(`<div id="html_790a29a5bb157dd975b579bcb8dbb8e7" style="width: 100.0%; height: 100.0%;">Port: VENTSPILS (ID: 7464)</div>`)[0];
+                popup_faa6c843fe51f10ab449c4dc656ce17c.setContent(html_790a29a5bb157dd975b579bcb8dbb8e7);
+            
+        
+
+        circle_6fb1c411849bd4edb39ab6acc98826c3.bindPopup(popup_faa6c843fe51f10ab449c4dc656ce17c)
+        ;
+
+        
+    
+    
+            circle_6fb1c411849bd4edb39ab6acc98826c3.bindTooltip(
+                `<div>
+                     VENTSPILS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_fa3cd2a266da353f55920371d1c3cf69 = L.circle(
+                [57.6323, 18.2823],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_4ed517ee2e6428d862c6086f69bd5237 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ce065415660e680c73c44c75bb56b50 = $(`<div id="html_1ce065415660e680c73c44c75bb56b50" style="width: 100.0%; height: 100.0%;">Port: VISBY (ID: 88)</div>`)[0];
+                popup_4ed517ee2e6428d862c6086f69bd5237.setContent(html_1ce065415660e680c73c44c75bb56b50);
+            
+        
+
+        circle_fa3cd2a266da353f55920371d1c3cf69.bindPopup(popup_4ed517ee2e6428d862c6086f69bd5237)
+        ;
+
+        
+    
+    
+            circle_fa3cd2a266da353f55920371d1c3cf69.bindTooltip(
+                `<div>
+                     VISBY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f1c7199a899e3b9b1e052db818fd0a71 = L.circle(
+                [60.716442, 28.783328],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_ec291c095046c09136994ae9d189c2f3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7bbb95176292f67f5233e8f23b0745be = $(`<div id="html_7bbb95176292f67f5233e8f23b0745be" style="width: 100.0%; height: 100.0%;">Port: VYBORG (ID: 9327575)</div>`)[0];
+                popup_ec291c095046c09136994ae9d189c2f3.setContent(html_7bbb95176292f67f5233e8f23b0745be);
+            
+        
+
+        circle_f1c7199a899e3b9b1e052db818fd0a71.bindPopup(popup_ec291c095046c09136994ae9d189c2f3)
+        ;
+
+        
+    
+    
+            circle_f1c7199a899e3b9b1e052db818fd0a71.bindTooltip(
+                `<div>
+                     VYBORG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_b517306360409d7792b53b234549004a = L.circle(
+                [58.3834, 12.3167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_7b34b97181df7087db17705361bb00c1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_80cf0cf60485f234edf10ca7710555b1 = $(`<div id="html_80cf0cf60485f234edf10ca7710555b1" style="width: 100.0%; height: 100.0%;">Port: VÄNERSBORG (ID: 71121)</div>`)[0];
+                popup_7b34b97181df7087db17705361bb00c1.setContent(html_80cf0cf60485f234edf10ca7710555b1);
+            
+        
+
+        circle_b517306360409d7792b53b234549004a.bindPopup(popup_7b34b97181df7087db17705361bb00c1)
+        ;
+
+        
+    
+    
+            circle_b517306360409d7792b53b234549004a.bindTooltip(
+                `<div>
+                     VÄNERSBORG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2f82079cd78b1c3067fd89d546408fcd = L.circle(
+                [57.7532, 16.583],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_0a45067295a70af9e99077d40a7262e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f026bf1ad520a241f16a1cce4d075473 = $(`<div id="html_f026bf1ad520a241f16a1cce4d075473" style="width: 100.0%; height: 100.0%;">Port: VÄSTERVIK (ID: 352995)</div>`)[0];
+                popup_0a45067295a70af9e99077d40a7262e8.setContent(html_f026bf1ad520a241f16a1cce4d075473);
+            
+        
+
+        circle_2f82079cd78b1c3067fd89d546408fcd.bindPopup(popup_0a45067295a70af9e99077d40a7262e8)
+        ;
+
+        
+    
+    
+            circle_2f82079cd78b1c3067fd89d546408fcd.bindTooltip(
+                `<div>
+                     VÄSTERVIK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_dd8304cfb94aa754752db4da1143448d = L.circle(
+                [59.63, 16.552],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b1fb99a3f96a27d5de58237f8c812758 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c81cad5d1de01fc8b6b4ff02d19b53fe = $(`<div id="html_c81cad5d1de01fc8b6b4ff02d19b53fe" style="width: 100.0%; height: 100.0%;">Port: VÄSTERÅS (ID: 90433)</div>`)[0];
+                popup_b1fb99a3f96a27d5de58237f8c812758.setContent(html_c81cad5d1de01fc8b6b4ff02d19b53fe);
+            
+        
+
+        circle_dd8304cfb94aa754752db4da1143448d.bindPopup(popup_b1fb99a3f96a27d5de58237f8c812758)
+        ;
+
+        
+    
+    
+            circle_dd8304cfb94aa754752db4da1143448d.bindTooltip(
+                `<div>
+                     VÄSTERÅS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_84febdd2aa3ef849497fa1f1a1be9a2f = L.circle(
+                [55.4333243, 13.83],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_4022be97c004e7cacd789519a302d97b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da089a36df3ddd1c845bf5ca25884448 = $(`<div id="html_da089a36df3ddd1c845bf5ca25884448" style="width: 100.0%; height: 100.0%;">Port: YSTAD (ID: 130593)</div>`)[0];
+                popup_4022be97c004e7cacd789519a302d97b.setContent(html_da089a36df3ddd1c845bf5ca25884448);
+            
+        
+
+        circle_84febdd2aa3ef849497fa1f1a1be9a2f.bindPopup(popup_4022be97c004e7cacd789519a302d97b)
+        ;
+
+        
+    
+    
+            circle_84febdd2aa3ef849497fa1f1a1be9a2f.bindTooltip(
+                `<div>
+                     YSTAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_10a7ec38ee6d4cbafc15b8f43e064283 = L.circle(
+                [55.93332, 14.316325],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_2cd1cac489d532306aedfda3396a4c67 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d5acaca691bd9b6f6fb70ff2188efc51 = $(`<div id="html_d5acaca691bd9b6f6fb70ff2188efc51" style="width: 100.0%; height: 100.0%;">Port: ÅHUS (ID: 89412)</div>`)[0];
+                popup_2cd1cac489d532306aedfda3396a4c67.setContent(html_d5acaca691bd9b6f6fb70ff2188efc51);
+            
+        
+
+        circle_10a7ec38ee6d4cbafc15b8f43e064283.bindPopup(popup_2cd1cac489d532306aedfda3396a4c67)
+        ;
+
+        
+    
+    
+            circle_10a7ec38ee6d4cbafc15b8f43e064283.bindTooltip(
+                `<div>
+                     ÅHUS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_57651dc2b4a2951fab7a9469fddcfac4 = L.circle(
+                [59.05241, 12.716421],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3121c5d6eea5424e3b5a7b8a4d2d5da5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8dc4f999a5dc79d43643c902768deb8e = $(`<div id="html_8dc4f999a5dc79d43643c902768deb8e" style="width: 100.0%; height: 100.0%;">Port: ÅMÅL (ID: 93251)</div>`)[0];
+                popup_3121c5d6eea5424e3b5a7b8a4d2d5da5.setContent(html_8dc4f999a5dc79d43643c902768deb8e);
+            
+        
+
+        circle_57651dc2b4a2951fab7a9469fddcfac4.bindPopup(popup_3121c5d6eea5424e3b5a7b8a4d2d5da5)
+        ;
+
+        
+    
+    
+            circle_57651dc2b4a2951fab7a9469fddcfac4.bindTooltip(
+                `<div>
+                     ÅMÅL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_76c238b93b5b84e95e9c87def74581ce = L.circle(
+                [60.33421, 18.45953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_e71caa82e576e88695683962e6165ad0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bba75885c517e3e626231c64f20d04aa = $(`<div id="html_bba75885c517e3e626231c64f20d04aa" style="width: 100.0%; height: 100.0%;">Port: ÖREGRUND (ID: 4210)</div>`)[0];
+                popup_e71caa82e576e88695683962e6165ad0.setContent(html_bba75885c517e3e626231c64f20d04aa);
+            
+        
+
+        circle_76c238b93b5b84e95e9c87def74581ce.bindPopup(popup_e71caa82e576e88695683962e6165ad0)
+        ;
+
+        
+    
+    
+            circle_76c238b93b5b84e95e9c87def74581ce.bindTooltip(
+                `<div>
+                     ÖREGRUND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f8ad5139103214fdc5337c9a1fa23c8f = L.circle(
+                [63.283, 18.716],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_ba6f8907a02da45d1a331946e244a5fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9562e86e0e3993ff2aea728e08a2cae9 = $(`<div id="html_9562e86e0e3993ff2aea728e08a2cae9" style="width: 100.0%; height: 100.0%;">Port: ÖRNSKÖLDSVIK (ID: 939929)</div>`)[0];
+                popup_ba6f8907a02da45d1a331946e244a5fa.setContent(html_9562e86e0e3993ff2aea728e08a2cae9);
+            
+        
+
+        circle_f8ad5139103214fdc5337c9a1fa23c8f.bindPopup(popup_ba6f8907a02da45d1a331946e244a5fa)
+        ;
+
+        
+    
+    
+            circle_f8ad5139103214fdc5337c9a1fa23c8f.bindTooltip(
+                `<div>
+                     ÖRNSKÖLDSVIK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d9e1ec7b5fe9b9d7101b9aa754841d92 = L.circle(
+                [60.333233, 28.667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_87377464e1aeb52502c1c24606903187 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d97b79406951d8a958bb66e411a16518 = $(`<div id="html_d97b79406951d8a958bb66e411a16518" style="width: 100.0%; height: 100.0%;">Port: PRIMORSK (ID: 45647)</div>`)[0];
+                popup_87377464e1aeb52502c1c24606903187.setContent(html_d97b79406951d8a958bb66e411a16518);
+            
+        
+
+        circle_d9e1ec7b5fe9b9d7101b9aa754841d92.bindPopup(popup_87377464e1aeb52502c1c24606903187)
+        ;
+
+        
+    
+    
+            circle_d9e1ec7b5fe9b9d7101b9aa754841d92.bindTooltip(
+                `<div>
+                     PRIMORSK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a7912974a4cb88f3d32e3fff05e2882b = L.circle(
+                [57.917, 12.066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_c07bd920f7a2aee54acd65891e9f810e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a5080a4b3216bf96b5874e7e842c45c1 = $(`<div id="html_a5080a4b3216bf96b5874e7e842c45c1" style="width: 100.0%; height: 100.0%;">Port: NOL (ID: 432124)</div>`)[0];
+                popup_c07bd920f7a2aee54acd65891e9f810e.setContent(html_a5080a4b3216bf96b5874e7e842c45c1);
+            
+        
+
+        circle_a7912974a4cb88f3d32e3fff05e2882b.bindPopup(popup_c07bd920f7a2aee54acd65891e9f810e)
+        ;
+
+        
+    
+    
+            circle_a7912974a4cb88f3d32e3fff05e2882b.bindTooltip(
+                `<div>
+                     NOL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_78bf5883308b8da1ec9f7374835f4224 = L.circle(
+                [57.7856, 12.0076],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_a465ad5c57e9e2fd7cce4a029c85010d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d717785dd3f0140d7d72c858ff9475f0 = $(`<div id="html_d717785dd3f0140d7d72c858ff9475f0" style="width: 100.0%; height: 100.0%;">Port: Agnesberg (ID: 2321)</div>`)[0];
+                popup_a465ad5c57e9e2fd7cce4a029c85010d.setContent(html_d717785dd3f0140d7d72c858ff9475f0);
+            
+        
+
+        circle_78bf5883308b8da1ec9f7374835f4224.bindPopup(popup_a465ad5c57e9e2fd7cce4a029c85010d)
+        ;
+
+        
+    
+    
+            circle_78bf5883308b8da1ec9f7374835f4224.bindTooltip(
+                `<div>
+                     Agnesberg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e5862882463420757f354c0fd6b8c90a = L.circle(
+                [61.9042, 17.35421],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_bc17646a34a6f4fd4949f1a88b98f9c0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e97baaf5772f496678cf80f4e6e5a3c3 = $(`<div id="html_e97baaf5772f496678cf80f4e6e5a3c3" style="width: 100.0%; height: 100.0%;">Port: STOCKA (ID: 958123)</div>`)[0];
+                popup_bc17646a34a6f4fd4949f1a88b98f9c0.setContent(html_e97baaf5772f496678cf80f4e6e5a3c3);
+            
+        
+
+        circle_e5862882463420757f354c0fd6b8c90a.bindPopup(popup_bc17646a34a6f4fd4949f1a88b98f9c0)
+        ;
+
+        
+    
+    
+            circle_e5862882463420757f354c0fd6b8c90a.bindTooltip(
+                `<div>
+                     STOCKA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_215f40e4dcf3be6dc2e7537b76713240 = L.circle(
+                [61.22, 17.172],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_23661c8e099dc801d5a5b74c4dd07264 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5fcb6ef5eefd5dfed44e0e237643d2a = $(`<div id="html_e5fcb6ef5eefd5dfed44e0e237643d2a" style="width: 100.0%; height: 100.0%;">Port: ORRSKÄR (ID: 84289)</div>`)[0];
+                popup_23661c8e099dc801d5a5b74c4dd07264.setContent(html_e5fcb6ef5eefd5dfed44e0e237643d2a);
+            
+        
+
+        circle_215f40e4dcf3be6dc2e7537b76713240.bindPopup(popup_23661c8e099dc801d5a5b74c4dd07264)
+        ;
+
+        
+    
+    
+            circle_215f40e4dcf3be6dc2e7537b76713240.bindTooltip(
+                `<div>
+                     ORRSKÄR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ca78b9785ba9e3c06a54777a22f9f86a = L.circle(
+                [57.1, 16.56678],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_16d6abaaa2b8ac653281dbea4788dd50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ef03eaab85bcc5d8d5a050465dc003b = $(`<div id="html_0ef03eaab85bcc5d8d5a050465dc003b" style="width: 100.0%; height: 100.0%;">Port: MÖNSTERÅS (ID: 9492214)</div>`)[0];
+                popup_16d6abaaa2b8ac653281dbea4788dd50.setContent(html_0ef03eaab85bcc5d8d5a050465dc003b);
+            
+        
+
+        circle_ca78b9785ba9e3c06a54777a22f9f86a.bindPopup(popup_16d6abaaa2b8ac653281dbea4788dd50)
+        ;
+
+        
+    
+    
+            circle_ca78b9785ba9e3c06a54777a22f9f86a.bindTooltip(
+                `<div>
+                     MÖNSTERÅS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9a5c841a43d84bed3d34032ca9403089 = L.circle(
+                [59.5833, 17.504],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_2194b132dc5b14c84b893313439f0c79 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ea2b782f59f2e1acb1d6aba2c6761efc = $(`<div id="html_ea2b782f59f2e1acb1d6aba2c6761efc" style="width: 100.0%; height: 100.0%;">Port: BÅLSTA (ID: 4949)</div>`)[0];
+                popup_2194b132dc5b14c84b893313439f0c79.setContent(html_ea2b782f59f2e1acb1d6aba2c6761efc);
+            
+        
+
+        circle_9a5c841a43d84bed3d34032ca9403089.bindPopup(popup_2194b132dc5b14c84b893313439f0c79)
+        ;
+
+        
+    
+    
+            circle_9a5c841a43d84bed3d34032ca9403089.bindTooltip(
+                `<div>
+                     BÅLSTA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9e5b36d044aa2d8c09feef278b914652 = L.circle(
+                [58.35, 11.416492],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_44fe18fbbcffb5f1457ebb7308d9f1fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2333fc104ddf17e4eb53f29db7f3d614 = $(`<div id="html_2333fc104ddf17e4eb53f29db7f3d614" style="width: 100.0%; height: 100.0%;">Port: BROFJORDEN (ID: 4219)</div>`)[0];
+                popup_44fe18fbbcffb5f1457ebb7308d9f1fa.setContent(html_2333fc104ddf17e4eb53f29db7f3d614);
+            
+        
+
+        circle_9e5b36d044aa2d8c09feef278b914652.bindPopup(popup_44fe18fbbcffb5f1457ebb7308d9f1fa)
+        ;
+
+        
+    
+    
+            circle_9e5b36d044aa2d8c09feef278b914652.bindTooltip(
+                `<div>
+                     BROFJORDEN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f526cfcc606fe7cc277ae0c49cff8afe = L.circle(
+                [56.3501248, 16.4168],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_ac78da7743f98afbad6d29ae9d5a309d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_40c81e879d9abd741eab6ea3aa3b5a60 = $(`<div id="html_40c81e879d9abd741eab6ea3aa3b5a60" style="width: 100.0%; height: 100.0%;">Port: DEGERHAMN (ID: 9557327)</div>`)[0];
+                popup_ac78da7743f98afbad6d29ae9d5a309d.setContent(html_40c81e879d9abd741eab6ea3aa3b5a60);
+            
+        
+
+        circle_f526cfcc606fe7cc277ae0c49cff8afe.bindPopup(popup_ac78da7743f98afbad6d29ae9d5a309d)
+        ;
+
+        
+    
+    
+            circle_f526cfcc606fe7cc277ae0c49cff8afe.bindTooltip(
+                `<div>
+                     DEGERHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_dc18856f127bb3c79a30542f7d639322 = L.circle(
+                [56.3832, 16.0831],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_d7e082b0e7ce931c9c5f83c516c4a451 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e4552ea8ca3326c7d4326399f5c92938 = $(`<div id="html_e4552ea8ca3326c7d4326399f5c92938" style="width: 100.0%; height: 100.0%;">Port: BERGKVARA (ID: 9238)</div>`)[0];
+                popup_d7e082b0e7ce931c9c5f83c516c4a451.setContent(html_e4552ea8ca3326c7d4326399f5c92938);
+            
+        
+
+        circle_dc18856f127bb3c79a30542f7d639322.bindPopup(popup_d7e082b0e7ce931c9c5f83c516c4a451)
+        ;
+
+        
+    
+    
+            circle_dc18856f127bb3c79a30542f7d639322.bindTooltip(
+                `<div>
+                     BERGKVARA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_bfb73ceb4966c1a1f3f8e8fda4faec84 = L.circle(
+                [59.71787, 19.06685],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_11c12e040f5f3195bf7c23013da74917 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_69e0fd5925042e0814620637b109c16f = $(`<div id="html_69e0fd5925042e0814620637b109c16f" style="width: 100.0%; height: 100.0%;">Port: KAPELLSKÄR (ID: 98120)</div>`)[0];
+                popup_11c12e040f5f3195bf7c23013da74917.setContent(html_69e0fd5925042e0814620637b109c16f);
+            
+        
+
+        circle_bfb73ceb4966c1a1f3f8e8fda4faec84.bindPopup(popup_11c12e040f5f3195bf7c23013da74917)
+        ;
+
+        
+    
+    
+            circle_bfb73ceb4966c1a1f3f8e8fda4faec84.bindTooltip(
+                `<div>
+                     KAPELLSKÄR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ccee005669de41783ca79b49f322055b = L.circle(
+                [56.2123, 12.550249],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_580336d0b0381c58277cfbc8f4b0e289 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_64373860ba35711507fa39d9431c3709 = $(`<div id="html_64373860ba35711507fa39d9431c3709" style="width: 100.0%; height: 100.0%;">Port: HÖGANÄS (ID: 32140)</div>`)[0];
+                popup_580336d0b0381c58277cfbc8f4b0e289.setContent(html_64373860ba35711507fa39d9431c3709);
+            
+        
+
+        circle_ccee005669de41783ca79b49f322055b.bindPopup(popup_580336d0b0381c58277cfbc8f4b0e289)
+        ;
+
+        
+    
+    
+            circle_ccee005669de41783ca79b49f322055b.bindTooltip(
+                `<div>
+                     HÖGANÄS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_d3a40bb944c8f926958c7c217227aabc = L.circle(
+                [57.38342, 18.183],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_f985de4133010ac876c2a575192cd62b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c00cd6d61c23184eca15fdedd65e045b = $(`<div id="html_c00cd6d61c23184eca15fdedd65e045b" style="width: 100.0%; height: 100.0%;">Port: KLINTEHAMN (ID: 9447)</div>`)[0];
+                popup_f985de4133010ac876c2a575192cd62b.setContent(html_c00cd6d61c23184eca15fdedd65e045b);
+            
+        
+
+        circle_d3a40bb944c8f926958c7c217227aabc.bindPopup(popup_f985de4133010ac876c2a575192cd62b)
+        ;
+
+        
+    
+    
+            circle_d3a40bb944c8f926958c7c217227aabc.bindTooltip(
+                `<div>
+                     KLINTEHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_8dd5544da161d85ad2500beb7a0a81ca = L.circle(
+                [58.93, 11.166841],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_a2d5482b603a233bff46a5ad3fe23a14 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c5c88d7585affbfd47f52d0bd9e8261 = $(`<div id="html_8c5c88d7585affbfd47f52d0bd9e8261" style="width: 100.0%; height: 100.0%;">Port: STRÖMSTAD (ID: 40421948)</div>`)[0];
+                popup_a2d5482b603a233bff46a5ad3fe23a14.setContent(html_8c5c88d7585affbfd47f52d0bd9e8261);
+            
+        
+
+        circle_8dd5544da161d85ad2500beb7a0a81ca.bindPopup(popup_a2d5482b603a233bff46a5ad3fe23a14)
+        ;
+
+        
+    
+    
+            circle_8dd5544da161d85ad2500beb7a0a81ca.bindTooltip(
+                `<div>
+                     STRÖMSTAD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_bbe57d9e673740447f4eec531aca0711 = L.circle(
+                [58.0835, 11.8165],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3c0c88e1c3a532990e3e5c5e5e11eea9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b9d582e69b67aef216220100af2d6ae2 = $(`<div id="html_b9d582e69b67aef216220100af2d6ae2" style="width: 100.0%; height: 100.0%;">Port: STENUNGSUND (ID: 211239847)</div>`)[0];
+                popup_3c0c88e1c3a532990e3e5c5e5e11eea9.setContent(html_b9d582e69b67aef216220100af2d6ae2);
+            
+        
+
+        circle_bbe57d9e673740447f4eec531aca0711.bindPopup(popup_3c0c88e1c3a532990e3e5c5e5e11eea9)
+        ;
+
+        
+    
+    
+            circle_bbe57d9e673740447f4eec531aca0711.bindTooltip(
+                `<div>
+                     STENUNGSUND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_613fb9e7756199e5e5c24dce992d3aba = L.circle(
+                [57.88, 19.01642],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_f43b3b1e57046cd1f909d0131a0313ed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e5a4d4d6453ec84a234ab7eba736216 = $(`<div id="html_4e5a4d4d6453ec84a234ab7eba736216" style="width: 100.0%; height: 100.0%;">Port: STRÅ (ID: 95772812)</div>`)[0];
+                popup_f43b3b1e57046cd1f909d0131a0313ed.setContent(html_4e5a4d4d6453ec84a234ab7eba736216);
+            
+        
+
+        circle_613fb9e7756199e5e5c24dce992d3aba.bindPopup(popup_f43b3b1e57046cd1f909d0131a0313ed)
+        ;
+
+        
+    
+    
+            circle_613fb9e7756199e5e5c24dce992d3aba.bindTooltip(
+                `<div>
+                     STRÅ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_0563e6f77d6f7aa4a4cfc9bdf1c7a86d = L.circle(
+                [58.017, 11.79573],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_de091b0c0e3fd9d62730f11c7f543f9b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a5b36adc18c7dbb2a437dc04912cc63 = $(`<div id="html_7a5b36adc18c7dbb2a437dc04912cc63" style="width: 100.0%; height: 100.0%;">Port: WALLHAMN (ID: 421815)</div>`)[0];
+                popup_de091b0c0e3fd9d62730f11c7f543f9b.setContent(html_7a5b36adc18c7dbb2a437dc04912cc63);
+            
+        
+
+        circle_0563e6f77d6f7aa4a4cfc9bdf1c7a86d.bindPopup(popup_de091b0c0e3fd9d62730f11c7f543f9b)
+        ;
+
+        
+    
+    
+            circle_0563e6f77d6f7aa4a4cfc9bdf1c7a86d.bindTooltip(
+                `<div>
+                     WALLHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_70ec4f89a4db3e37d01ef9e066c0c231 = L.circle(
+                [60.110847, 18.8167471],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_2dcffaf64c3710b7f91d7c31102db271 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_029ef1e8b923fede7eb8db5b4e13f2a6 = $(`<div id="html_029ef1e8b923fede7eb8db5b4e13f2a6" style="width: 100.0%; height: 100.0%;">Port: GRISSLEHAMN (ID: 856529)</div>`)[0];
+                popup_2dcffaf64c3710b7f91d7c31102db271.setContent(html_029ef1e8b923fede7eb8db5b4e13f2a6);
+            
+        
+
+        circle_70ec4f89a4db3e37d01ef9e066c0c231.bindPopup(popup_2dcffaf64c3710b7f91d7c31102db271)
+        ;
+
+        
+    
+    
+            circle_70ec4f89a4db3e37d01ef9e066c0c231.bindTooltip(
+                `<div>
+                     GRISSLEHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_ab609b2308097338368cd97ae949aaeb = L.circle(
+                [57.175, 18.511],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_1aa8475e76fe67b0168c5b52e26f38cd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ab36256195644eb6ebdf26d2807c3398 = $(`<div id="html_ab36256195644eb6ebdf26d2807c3398" style="width: 100.0%; height: 100.0%;">Port: RONEHAMN (ID: 42326)</div>`)[0];
+                popup_1aa8475e76fe67b0168c5b52e26f38cd.setContent(html_ab36256195644eb6ebdf26d2807c3398);
+            
+        
+
+        circle_ab609b2308097338368cd97ae949aaeb.bindPopup(popup_1aa8475e76fe67b0168c5b52e26f38cd)
+        ;
+
+        
+    
+    
+            circle_ab609b2308097338368cd97ae949aaeb.bindTooltip(
+                `<div>
+                     RONEHAMN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_7d03a33e6ea225aa7dae6ea3269bf892 = L.circle(
+                [60.1128418, 20.2976938],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b48bca84fc95d8a43c73342cbcc9038c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf274d7cbc17397a8384fe0038ab19b2 = $(`<div id="html_bf274d7cbc17397a8384fe0038ab19b2" style="width: 100.0%; height: 100.0%;">Port: LÅNGNÄS (ID: 4325)</div>`)[0];
+                popup_b48bca84fc95d8a43c73342cbcc9038c.setContent(html_bf274d7cbc17397a8384fe0038ab19b2);
+            
+        
+
+        circle_7d03a33e6ea225aa7dae6ea3269bf892.bindPopup(popup_b48bca84fc95d8a43c73342cbcc9038c)
+        ;
+
+        
+    
+    
+            circle_7d03a33e6ea225aa7dae6ea3269bf892.bindTooltip(
+                `<div>
+                     LÅNGNÄS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e9747058e5eed61dedcb996cf48a051c = L.circle(
+                [60.3, 22.394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_43beb61e96acec5f55ea89c85012ea6b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9e836d26f1a184812a58ecc9a68166bf = $(`<div id="html_9e836d26f1a184812a58ecc9a68166bf" style="width: 100.0%; height: 100.0%;">Port: Parainen (ID: 9949)</div>`)[0];
+                popup_43beb61e96acec5f55ea89c85012ea6b.setContent(html_9e836d26f1a184812a58ecc9a68166bf);
+            
+        
+
+        circle_e9747058e5eed61dedcb996cf48a051c.bindPopup(popup_43beb61e96acec5f55ea89c85012ea6b)
+        ;
+
+        
+    
+    
+            circle_e9747058e5eed61dedcb996cf48a051c.bindTooltip(
+                `<div>
+                     Parainen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9d9f14a5d02918b3e446280b80a75ce8 = L.circle(
+                [61.04925, 28.249],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_c6c96fd2980d0bd3a6adbd5144852577 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa7d439f5c47100147f4defeedae38fa = $(`<div id="html_fa7d439f5c47100147f4defeedae38fa" style="width: 100.0%; height: 100.0%;">Port: Lappeenranta (ID: 75684)</div>`)[0];
+                popup_c6c96fd2980d0bd3a6adbd5144852577.setContent(html_fa7d439f5c47100147f4defeedae38fa);
+            
+        
+
+        circle_9d9f14a5d02918b3e446280b80a75ce8.bindPopup(popup_c6c96fd2980d0bd3a6adbd5144852577)
+        ;
+
+        
+    
+    
+            circle_9d9f14a5d02918b3e446280b80a75ce8.bindTooltip(
+                `<div>
+                     Lappeenranta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_14ddf168f5bd26f204e6e89b2ecdd0d4 = L.circle(
+                [61.119467, 28.467],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_c3152c6f057fd56df3005662f8bfd05d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_28e25d1df459e3228596c467b79907b3 = $(`<div id="html_28e25d1df459e3228596c467b79907b3" style="width: 100.0%; height: 100.0%;">Port: Joutseno (ID: 2472356)</div>`)[0];
+                popup_c3152c6f057fd56df3005662f8bfd05d.setContent(html_28e25d1df459e3228596c467b79907b3);
+            
+        
+
+        circle_14ddf168f5bd26f204e6e89b2ecdd0d4.bindPopup(popup_c3152c6f057fd56df3005662f8bfd05d)
+        ;
+
+        
+    
+    
+            circle_14ddf168f5bd26f204e6e89b2ecdd0d4.bindTooltip(
+                `<div>
+                     Joutseno
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_36e924bb9b2db6d900c256238f4bc899 = L.circle(
+                [61.216047, 28.83413],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_5a4fef747f081f5acde0d43631fc0cda = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ea845cb9d7340754a932bce1d757977a = $(`<div id="html_ea845cb9d7340754a932bce1d757977a" style="width: 100.0%; height: 100.0%;">Port: Imatra (ID: 4621469)</div>`)[0];
+                popup_5a4fef747f081f5acde0d43631fc0cda.setContent(html_ea845cb9d7340754a932bce1d757977a);
+            
+        
+
+        circle_36e924bb9b2db6d900c256238f4bc899.bindPopup(popup_5a4fef747f081f5acde0d43631fc0cda)
+        ;
+
+        
+    
+    
+            circle_36e924bb9b2db6d900c256238f4bc899.bindTooltip(
+                `<div>
+                     Imatra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f43497bb9ef45b831bfb29a7a1eccea1 = L.circle(
+                [61.467, 27.2833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_bc4ab94e7fe5936b5b64e33cc307b396 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b5a6f4f843af8724ff17d8943283ba9c = $(`<div id="html_b5a6f4f843af8724ff17d8943283ba9c" style="width: 100.0%; height: 100.0%;">Port: Ristiina (ID: 899872)</div>`)[0];
+                popup_bc4ab94e7fe5936b5b64e33cc307b396.setContent(html_b5a6f4f843af8724ff17d8943283ba9c);
+            
+        
+
+        circle_f43497bb9ef45b831bfb29a7a1eccea1.bindPopup(popup_bc4ab94e7fe5936b5b64e33cc307b396)
+        ;
+
+        
+    
+    
+            circle_f43497bb9ef45b831bfb29a7a1eccea1.bindTooltip(
+                `<div>
+                     Ristiina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e87168f53bb2c0a4ced311bd5634cc72 = L.circle(
+                [61.867, 28.866],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_d0b02b4c64b70fbfb47808fff9973075 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4794271b137ceb316363282143ec2aa5 = $(`<div id="html_4794271b137ceb316363282143ec2aa5" style="width: 100.0%; height: 100.0%;">Port: Savonlinna (ID: 8474812)</div>`)[0];
+                popup_d0b02b4c64b70fbfb47808fff9973075.setContent(html_4794271b137ceb316363282143ec2aa5);
+            
+        
+
+        circle_e87168f53bb2c0a4ced311bd5634cc72.bindPopup(popup_d0b02b4c64b70fbfb47808fff9973075)
+        ;
+
+        
+    
+    
+            circle_e87168f53bb2c0a4ced311bd5634cc72.bindTooltip(
+                `<div>
+                     Savonlinna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_75cb2210c92ea2e2975cb6dfc761bf45 = L.circle(
+                [62.3167, 27.916724],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_d431f5cdbea8af46df4b021370bb6236 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0dcbefca48c4803142058eecbb01116 = $(`<div id="html_a0dcbefca48c4803142058eecbb01116" style="width: 100.0%; height: 100.0%;">Port: Varkaus (ID: 14173)</div>`)[0];
+                popup_d431f5cdbea8af46df4b021370bb6236.setContent(html_a0dcbefca48c4803142058eecbb01116);
+            
+        
+
+        circle_75cb2210c92ea2e2975cb6dfc761bf45.bindPopup(popup_d431f5cdbea8af46df4b021370bb6236)
+        ;
+
+        
+    
+    
+            circle_75cb2210c92ea2e2975cb6dfc761bf45.bindTooltip(
+                `<div>
+                     Varkaus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_fbb775719ed22185fb4d6b4ebefd3d03 = L.circle(
+                [62.119, 29.9171],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_aa6b7f123a11675f1bf9889c2df48955 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_71860596404b53ae4df1900c52dfaa89 = $(`<div id="html_71860596404b53ae4df1900c52dfaa89" style="width: 100.0%; height: 100.0%;">Port: Puhos (ID: 9246219)</div>`)[0];
+                popup_aa6b7f123a11675f1bf9889c2df48955.setContent(html_71860596404b53ae4df1900c52dfaa89);
+            
+        
+
+        circle_fbb775719ed22185fb4d6b4ebefd3d03.bindPopup(popup_aa6b7f123a11675f1bf9889c2df48955)
+        ;
+
+        
+    
+    
+            circle_fbb775719ed22185fb4d6b4ebefd3d03.bindTooltip(
+                `<div>
+                     Puhos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_4e1f50689ddeb754c65bdfa0188b6848 = L.circle(
+                [62.583, 29.7512],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_aaa2422092b5fa5ed3e641d332131e2a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f5d443003e7411e3c986df5a2855036 = $(`<div id="html_6f5d443003e7411e3c986df5a2855036" style="width: 100.0%; height: 100.0%;">Port: Joensuu (ID: 879142)</div>`)[0];
+                popup_aaa2422092b5fa5ed3e641d332131e2a.setContent(html_6f5d443003e7411e3c986df5a2855036);
+            
+        
+
+        circle_4e1f50689ddeb754c65bdfa0188b6848.bindPopup(popup_aaa2422092b5fa5ed3e641d332131e2a)
+        ;
+
+        
+    
+    
+            circle_4e1f50689ddeb754c65bdfa0188b6848.bindTooltip(
+                `<div>
+                     Joensuu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_328033ecd50565b80fdabf45710df248 = L.circle(
+                [62.88312, 27.68342],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_cebf11b620b38be9d9733ac434a10720 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_86019aec5b7155a58529a14fe5ea1563 = $(`<div id="html_86019aec5b7155a58529a14fe5ea1563" style="width: 100.0%; height: 100.0%;">Port: Kuopio (ID: 8020)</div>`)[0];
+                popup_cebf11b620b38be9d9733ac434a10720.setContent(html_86019aec5b7155a58529a14fe5ea1563);
+            
+        
+
+        circle_328033ecd50565b80fdabf45710df248.bindPopup(popup_cebf11b620b38be9d9733ac434a10720)
+        ;
+
+        
+    
+    
+            circle_328033ecd50565b80fdabf45710df248.bindTooltip(
+                `<div>
+                     Kuopio
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_fa7b045ca835e7303dc22e1f6207dd25 = L.circle(
+                [63.1038, 27.75409],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_1fe6316dec5a85c8b73e41bb03380a87 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df7c33ebb93a4a6dacf5d018e88eff18 = $(`<div id="html_df7c33ebb93a4a6dacf5d018e88eff18" style="width: 100.0%; height: 100.0%;">Port: Siilinjõrvi (ID: 1239479821)</div>`)[0];
+                popup_1fe6316dec5a85c8b73e41bb03380a87.setContent(html_df7c33ebb93a4a6dacf5d018e88eff18);
+            
+        
+
+        circle_fa7b045ca835e7303dc22e1f6207dd25.bindPopup(popup_1fe6316dec5a85c8b73e41bb03380a87)
+        ;
+
+        
+    
+    
+            circle_fa7b045ca835e7303dc22e1f6207dd25.bindTooltip(
+                `<div>
+                     Siilinjõrvi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_3bbd7344820150a696e1fe01587f69c8 = L.circle(
+                [60.229, 19.5421],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_9e7f6521e3c20edb555f3b1baa1d72e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_104ae54683484b2f403d700cef7d4804 = $(`<div id="html_104ae54683484b2f403d700cef7d4804" style="width: 100.0%; height: 100.0%;">Port: Eckerö (ID: 747712)</div>`)[0];
+                popup_9e7f6521e3c20edb555f3b1baa1d72e3.setContent(html_104ae54683484b2f403d700cef7d4804);
+            
+        
+
+        circle_3bbd7344820150a696e1fe01587f69c8.bindPopup(popup_9e7f6521e3c20edb555f3b1baa1d72e3)
+        ;
+
+        
+    
+    
+            circle_3bbd7344820150a696e1fe01587f69c8.bindTooltip(
+                `<div>
+                     Eckerö
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_413e5d3d8cf463c7a0b8d9f660b5c8cf = L.circle(
+                [60.101, 22.8534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_b22bb3a419970c42df46924ccf8da059 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e7f8f5c20c85d3cbdb98788671d50c92 = $(`<div id="html_e7f8f5c20c85d3cbdb98788671d50c92" style="width: 100.0%; height: 100.0%;">Port: FÖRBY (ID: 9393214)</div>`)[0];
+                popup_b22bb3a419970c42df46924ccf8da059.setContent(html_e7f8f5c20c85d3cbdb98788671d50c92);
+            
+        
+
+        circle_413e5d3d8cf463c7a0b8d9f660b5c8cf.bindPopup(popup_b22bb3a419970c42df46924ccf8da059)
+        ;
+
+        
+    
+    
+            circle_413e5d3d8cf463c7a0b8d9f660b5c8cf.bindTooltip(
+                `<div>
+                     FÖRBY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_700d48798e23f418a4cdd1679e00890a = L.circle(
+                [60.017, 22.50832],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_3e2e9c4224f81c920cd6f3428ced4f0e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b1fe585094204074fa2f88a8866284d = $(`<div id="html_6b1fe585094204074fa2f88a8866284d" style="width: 100.0%; height: 100.0%;">Port: TAALINTEHDAS (ID: 9112)</div>`)[0];
+                popup_3e2e9c4224f81c920cd6f3428ced4f0e.setContent(html_6b1fe585094204074fa2f88a8866284d);
+            
+        
+
+        circle_700d48798e23f418a4cdd1679e00890a.bindPopup(popup_3e2e9c4224f81c920cd6f3428ced4f0e)
+        ;
+
+        
+    
+    
+            circle_700d48798e23f418a4cdd1679e00890a.bindTooltip(
+                `<div>
+                     TAALINTEHDAS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_17e41bd7418f540f88b4aaca1189240e = L.circle(
+                [60.440214, 26.75921],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.8, "radius": 9260.0, "stroke": true, "weight": 2}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+        
+    
+        var popup_2cdbf14cc51c94dcfa44293e5e330b36 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c8bf8f5c14099d8f2d6bcbea6087dc89 = $(`<div id="html_c8bf8f5c14099d8f2d6bcbea6087dc89" style="width: 100.0%; height: 100.0%;">Port: MUSSALO (ID: 9421815)</div>`)[0];
+                popup_2cdbf14cc51c94dcfa44293e5e330b36.setContent(html_c8bf8f5c14099d8f2d6bcbea6087dc89);
+            
+        
+
+        circle_17e41bd7418f540f88b4aaca1189240e.bindPopup(popup_2cdbf14cc51c94dcfa44293e5e330b36)
+        ;
+
+        
+    
+    
+            circle_17e41bd7418f540f88b4aaca1189240e.bindTooltip(
+                `<div>
+                     MUSSALO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                var lat_lng_popup_0a4081cd579fa7d9123e6baf5acdbefb = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_0a4081cd579fa7d9123e6baf5acdbefb
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_46d8891d4b2cfe4720513d2e0f839ff8);
+                    }
+                map_46d8891d4b2cfe4720513d2e0f839ff8.on('click', latLngPop);
+            
+    
+            var layer_control_440dc53a8f67e3e976119b316b7ec672_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_adbd3991b3ade04b7a31f01d83a0a861,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_440dc53a8f67e3e976119b316b7ec672 = L.control.layers(
+                layer_control_440dc53a8f67e3e976119b316b7ec672_layers.base_layers,
+                layer_control_440dc53a8f67e3e976119b316b7ec672_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_46d8891d4b2cfe4720513d2e0f839ff8);
+
+        
+</script>
+</html>
