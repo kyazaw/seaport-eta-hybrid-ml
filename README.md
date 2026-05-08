@@ -88,41 +88,10 @@ seaport-eta-hybrid-ml/
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.9 or higher
-- Packages listed in `requirements.txt`
-
-### Installation
-
-```bash
-git clone https://github.com/kyazaw/seaport-eta-hybrid-ml.git
-cd seaport-eta-hybrid-ml
-pip install -r requirements.txt
-```
-
 ### Data Download
 
 Download the AIS dataset from IEEE Dataport:  
 **DOI:** [10.21227/j3b5-es69](https://dx.doi.org/10.21227/j3b5-es69)
-
-Place the raw CSV files in `data/raw/`. The preprocessing scripts expect the original format.
-
-### Run the Pipeline
-
-Execute the scripts in order:
-
-```bash
-python src/preprocessing.py        # Data cleaning & trajectory building
-python src/feature_engineering.py  # Feature creation (distance, speed, etc.)
-python src/models.py               # Individual model training & tuning
-python src/stacking_ensemble.py    # Stacking ensemble training
-python src/evaluation.py           # Final metrics, cross‑validation, SHAP
-```
-
-Outputs (models, plots, metrics tables) are saved in `results/`.
 
 ---
 
@@ -149,7 +118,7 @@ Top predictors: **average speed > voyage distance > average course** – togethe
 | Meta‑learner: XGBoost                             | 0.50     | 2 757   |
 | **Proposed (RFR meta‑learner)**                   | **0.25** | 1 500   |
 
-Detailed tables, learning curves, scatter plots, and cross‑validation results can be found in the `results/` folder.
+Full comparison tables, learning curves, scatter plots, and cross‑validation outcomes are available in the paper.
 
 ---
 
